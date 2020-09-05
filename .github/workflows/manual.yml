@@ -5,7 +5,9 @@ jobs:
   hurr:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: durr
       run: |
         ls
         pwd
+        ls SMF2.1
