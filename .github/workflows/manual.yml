@@ -10,8 +10,6 @@ jobs:
         submodules: true
     - name: durr
       run: |
-        pwd
-        ls
         if find . -name "*.php" ! -path "./vendor/*" -exec php -l {} 2>&1 \; | grep "syntax error, unexpected"; then exit 1; fi
         if php other/buildTools/check-signed-off.php travis | grep "Error:"; then php other/buildTools/check-signed-off.php travis; exit 1; fi
         if php other/buildTools/check-version.php | grep "Error:"; then exit 1; fi
