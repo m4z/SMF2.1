@@ -6,8 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: true
     - name: durr
       run: |
-        ls
         pwd
-        ls SMF2.1
+        ls
+        if find . -name "*.php" ! -path "./vendor/*" -exec php -l {} 2>&1 \; | grep "syntax error, unexpected"; then exit 1; fi
+        if php other/buildTools/check-signed-off.php travis | grep "Error:"; then php other/buildTools/check-signed-off.php travis; exit 1; fi
+        if php other/buildTools/check-version.php | grep "Error:"; then exit 1; fi
+        if find . -name "*.php" -exec php other/buildTools/check-smf-license.php {} 2>&1 \; | grep "Error:"; then exit 1; fi
+        if find . -name "./Themes/default/languages/*.english.php" -exec php other/buildTools/check-smf-langauge.php {} 2>&1 \; | grep "Error:"; then exit 1; fi
+        if find . -name "*.php" -exec php other/buildTools/check-eof.php {} 2>&1 \; | grep "Error:"; then exit 1; fi
