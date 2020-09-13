@@ -2,42 +2,78 @@
 // Version: 2.1 RC2; ManageMaintenance
 
 $txt['repair_zero_ids'] = 'Found topics and/or messages with topic or message IDs of 0.';
+// argument(s): TODO
 $txt['repair_missing_topics'] = 'Message #%1$d is in non-existent topic #%2$d.';
+// argument(s): TODO
 $txt['repair_missing_messages'] = 'Topic #%1$d contains no (actual) messages.';
+// argument(s): TODO
 $txt['repair_topic_wrong_first_id'] = 'Topic #%1$d has the first message ID %2$d, which is incorrect.';
+// argument(s): TODO
 $txt['repair_topic_wrong_last_id'] = 'Topic #%1$d has the last message ID %2$d, which is incorrect.';
+// argument(s): TODO
 $txt['repair_topic_wrong_replies'] = 'Topic #%1$d has the wrong number of replies, %2$d.';
+// argument(s): TODO
 $txt['repair_topic_wrong_unapproved_number'] = 'Topic #%1$d has the wrong number of unapproved posts, %2$d.';
+// argument(s): TODO
 $txt['repair_topic_wrong_approval'] = 'Topic #%1$d has the wrong approval flag set.';
+// argument(s): TODO
 $txt['repair_missing_boards'] = 'Topic #%1$d is in board #%2$d, which is missing.';
+// argument(s): TODO
 $txt['repair_missing_categories'] = 'Board #%1$d is in category #%2$d, which is missing.';
+// argument(s): TODO
 $txt['repair_missing_posters'] = 'Message #%1$d was posted by member #%2$d, who is now missing.';
+// argument(s): TODO
 $txt['repair_missing_parents'] = 'Board #%1$d is a sub-board of board #%2$d, which is missing.';
+// argument(s): TODO
 $txt['repair_missing_polls'] = 'Topic #%1$d is tied to non-existent poll #%2$d.';
+// argument(s): TODO
 $txt['repair_polls_missing_topics'] = 'Poll #%1$d is tied to non-existent topic #%2$d.';
+// argument(s): TODO
 $txt['repair_poll_options_missing_poll'] = 'Poll #%1$d has %2$d voting options but no poll attached.';
+// argument(s): TODO
 $txt['repair_missing_calendar_topics'] = 'Event #%1$d is tied to topic #%2$d, which is missing.';
+// argument(s): TODO
 $txt['repair_missing_log_topics'] = 'Topic #%1$d is marked as read for one or more people, but does not exist.';
+// argument(s): TODO
 $txt['repair_missing_log_topics_members'] = 'Member #%1$d has marked one or more topics as read, but does not exist.';
+// argument(s): TODO
 $txt['repair_missing_log_boards'] = 'Board #%1$d is marked as read for one or more people, but does not exist.';
+// argument(s): TODO
 $txt['repair_missing_log_boards_members'] = 'Member #%1$d has marked one or more boards as read, but does not exist.';
+// argument(s): TODO
 $txt['repair_missing_log_mark_read'] = 'Board #%1$d is marked as read for one or more people, but does not exist.';
+// argument(s): TODO
 $txt['repair_missing_log_mark_read_members'] = 'Member #%1$d has marked one or more boards as read, but does not exist.';
+// argument(s): TODO
 $txt['repair_missing_pms'] = 'Personal message #%1$d has been sent to one or more people, but does not exist.';
+// argument(s): TODO
 $txt['repair_missing_recipients'] = 'Member #%1$d has received one or more personal messages, but does not exist.';
+// argument(s): TODO
 $txt['repair_missing_senders'] = 'Personal message #%1$d was sent by member #%2$d, who does not exist.';
+// argument(s): TODO
 $txt['repair_missing_notify_members'] = 'Notifications have been requested by member #%1$d, who does not exist.';
+// argument(s): TODO
 $txt['repair_missing_cached_subject'] = 'The subject of topic #%1$d is currently not stored in the subject cache.';
+// argument(s): TODO
 $txt['repair_missing_topic_for_cache'] = 'Cached word \'%1$s\' is linked to a non-existent topic.';
+// argument(s): TODO
 $txt['repair_missing_log_poll_member'] = 'Poll #%1$d has been given a vote from member #%2$d , who is now missing.';
+// argument(s): TODO
 $txt['repair_missing_log_poll_vote'] = 'A vote was cast by member #%1$d on a non-existent poll #%2$d.';
+// argument(s): TODO
 $txt['repair_missing_thumbnail_parent'] = 'A thumbnail exists called %1$s, but it doesn\'t have a parent.';
+// argument(s): TODO
 $txt['repair_report_missing_comments'] = 'Report #%1$d of topic: &quot;%2$s&quot; has no comments.';
+// argument(s): TODO
 $txt['repair_comments_missing_report'] = 'Report comment #%1$d submitted by %2$s has no related report.';
+// argument(s): TODO
 $txt['repair_group_request_missing_member'] = 'A group request still exists for deleted member #%1$d.';
+// argument(s): TODO
 $txt['repair_group_request_missing_group'] = 'A group request still exists for deleted group #%1$d.';
 
+// argument(s): TODO
 $txt['repair_currently_checking'] = 'Checking: &quot;%1$s&quot;';
+// argument(s): TODO
 $txt['repair_currently_fixing'] = 'Fixing: &quot;%1$s&quot;';
 $txt['repair_operation_zero_topics'] = 'Topics with id_topic incorrectly set to zero';
 $txt['repair_operation_zero_messages'] = 'Messages with id_msg incorrectly set to zero';
@@ -82,8 +118,10 @@ $txt['salvaged_poll_message_body'] = 'This poll was found without a topic.';
 $txt['salvaged_poll_question'] = 'This poll was found without a question.';
 
 $txt['database_optimize'] = 'Optimize Database';
+// argument(s): TODO
 $txt['database_numb_tables'] = 'Your database contains %1$d tables.';
 $txt['database_optimize_attempt'] = 'Attempting to optimize your database...';
+// argument(s): TODO
 $txt['database_optimizing'] = 'Optimizing %1$s... %2$01.2f KB optimized.';
 $txt['database_already_optimized'] = 'All of the tables were already optimized.';
 $txt['database_opimize_unneeded'] = 'It wasn\'t necessary to optimize any tables.';
@@ -194,6 +232,7 @@ $txt['mediumtext_title'] = 'Convert to MEDIUMTEXT';
 $txt['mediumtext_introduction'] = 'The default messages table can contain posts up to a size of 65535 characters, in order be able to store bigger texts the column must be converted to "MEDIUMTEXT". It is also possible to revert the column back to TEXT (that operation would reduce the space occupied), but <strong>only if</strong> none of the posts in your database exceed the size of 65535 characters. This condition will be verified before the conversion.';
 $txt['body_checking_introduction'] = 'This function will convert the column of your database that contains the text of the messages into a "TEXT" format (currently is "MEDIUMTEXT"). This operation will allow to slightly reduce the amount of space occupied by each message (1 byte per message). If any message stored into the database is longer than 65535 characters it will be truncated and part of the text will be lost.';
 $txt['exceeding_messages'] = 'The following messages are longer than 65535 characters and will be truncated by the process:';
+// argument(s): TODO
 $txt['exceeding_messages_morethan'] = 'And other %1$d';
 $txt['convert_to_text'] = 'No messages are longer than 65535 characters. You can safely proceed with the conversion without losing any part of the text.';
 $txt['convert_to_suggest_text'] = 'The messages body column in your database is currently set as MEDIUMTEXT, but the maximum allowed length set for the messages is lower than 65535 characters. You may free some space converting the column to TEXT.';
@@ -223,6 +262,7 @@ $txt['reattribute_current_member'] = 'Attribute posts to member';
 $txt['reattribute_increase_posts'] = 'Add posts to users post count';
 $txt['reattribute'] = 'Reattribute';
 // Don't use entities in the below string.
+// argument(s): TODO
 $txt['reattribute_confirm'] = 'Are you sure you want to attribute all guest posts with %type% of "%find%" to member "%member_to%"?';
 $txt['reattribute_confirm_username'] = 'a username';
 $txt['reattribute_confirm_email'] = 'an email address';

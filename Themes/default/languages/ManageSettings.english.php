@@ -119,6 +119,7 @@ $txt['caching_information'] = 'SMF supports caching through the use of accelerat
 </ul>
 Caching will work best if you have PHP compiled with one of the above optimizers, or have memcached available. If you do not have any optimizer installed SMF will do file based caching.';
 $txt['detected_no_caching'] = 'SMF has not been able to detect a compatible accelerator on your server. File based caching can be used instead.';
+// argument(s): TODO
 $txt['detected_accelerators'] = 'SMF has detected the following accelerators: %1$s';
 
 $txt['cache_enable'] = 'Caching Level';
@@ -146,6 +147,7 @@ $txt['cache_xcache_settings'] = 'XCache settings';
 $txt['cache_xcache_adminuser'] = 'XCache Admin User';
 $txt['cache_xcache_adminpass'] = 'XCache Admin Password';
 
+// argument(s): TODO
 $txt['loadavg_warning'] = 'Please note: the settings below are to be edited with care. Setting any of them too low may render your forum <strong>unusable</strong>! The current load average is <strong>%01.2f</strong>';
 $txt['loadavg_enable'] = 'Enable load balancing by load averages';
 $txt['loadavg_auto_opt'] = 'Threshold to disabling automatic database optimization';
@@ -174,6 +176,7 @@ $txt['posts_require_captcha_desc'] = '(0 for no limit, moderators are exempt)';
 $txt['search_enable_captcha'] = 'Require verification on all guest searches';
 $txt['setting_guests_require_captcha'] = 'Guests must pass verification when making a post';
 $txt['setting_guests_require_captcha_desc'] = '(Automatically set if you specify a minimum post count below)';
+// argument(s): TODO
 $txt['question_not_defined'] = 'You need to add a question and answer for your forum\'s default language (%1$s) otherwise users will not be able to fill in a CAPTCHA, meaning no registration.';
 
 $txt['configure_verification_means'] = 'Configure Verification methods';
@@ -338,7 +341,9 @@ $txt['languages_character_set'] = 'Character Set';
 $txt['languages_users'] = 'Users';
 $txt['language_settings_writable'] = 'Warning: Settings.php is not writable so the default language setting cannot be saved.';
 $txt['edit_languages'] = 'Edit Languages';
+// argument(s): TODO
 $txt['lang_file_not_writable'] = '<strong>Warning:</strong> The primary language file (%1$s) is not writable. You must make this writable before you can make any changes.';
+// argument(s): TODO
 $txt['lang_entries_not_writable'] = '<strong>Warning:</strong> The language file you wish to edit (%1$s) is not writable. You must make this writable before you can make any changes.';
 $txt['languages_ltr'] = 'Right to Left';
 
@@ -388,8 +393,10 @@ $txt['languages_download_overwrite'] = 'Overwrite';
 $txt['languages_download_not_chmod'] = 'You cannot proceed with the installation until all files selected to be copied are writable.';
 $txt['languages_download_illegal_paths'] = 'Package contains illegal paths - please contact Simple Machines';
 $txt['languages_download_complete'] = 'Installation Complete';
+// argument(s): TODO
 $txt['languages_download_complete_desc'] = 'Language pack installed successfully. Please click <a href="%1$s">here</a> to return to the languages page';
 $txt['languages_delete_confirm'] = 'Are you sure you want to delete this language?';
+// argument(s): TODO
 $txt['languages_max_inputs_warning'] = 'You can only save %1$s edits at a time. Please click the Save button now, and then continue editing once this page has reloaded.';
 $txt['languages_txt'] = 'Standard text strings';
 $txt['languages_helptxt'] = 'Help text';

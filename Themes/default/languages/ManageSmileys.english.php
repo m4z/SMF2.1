@@ -30,6 +30,7 @@ $txt['smileys_add_upload'] = 'Upload new smiley';
 $txt['smileys_add_upload_choose'] = 'File to upload';
 $txt['smileys_add_upload_choose_desc'] = 'Image to be used by all smiley sets.';
 $txt['smileys_add_upload_all'] = 'Same image for all sets';
+// argument(s): TODO
 $txt['smileys_add_upload_for'] = 'Image for the %1$s set';
 
 $txt['smileys_enable_note'] = '(otherwise, the default smileys will be used.)';
@@ -57,6 +58,7 @@ $txt['smiley_set_new'] = 'Create new Smiley set';
 $txt['smiley_set_modify_existing'] = 'Modify existing Smiley set';
 $txt['smiley_set_modify'] = 'Modify';
 $txt['smiley_set_import_info'] = 'Smiley files whose names match with one of the existing smileys will be imported automatically.';
+// argument(s): TODO
 $txt['smiley_set_unused'] = 'There are unused smiley images in the folder for this smiley set. To use these files, do one of the following:
 	<ul class="bbc_list">
 		<li><a href="%1$s" class="bbc_link">Edit</a> your existing smileys to use them.</li>

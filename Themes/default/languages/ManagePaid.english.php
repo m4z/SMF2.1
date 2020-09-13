@@ -7,10 +7,15 @@ global $boardurl;
 $txt['lang_paypal'] = 'US';
 
 // Symbols.
+// argument(s): TODO
 $txt['usd_symbol'] = '$%1.2f';
+// argument(s): TODO
 $txt['eur_symbol'] = '&euro;%1.2f';
+// argument(s): TODO
 $txt['gbp_symbol'] = '&pound;%1.2f';
+// argument(s): TODO
 $txt['cad_symbol'] = 'C$%1.2f';
+// argument(s): TODO
 $txt['aud_symbol'] = 'A$%1.2f';
 
 $txt['usd'] = 'USD ($)';
@@ -45,6 +50,7 @@ $txt['paid_currency'] = 'Select Currency';
 $txt['paid_currency_code'] = 'Currency Code';
 $txt['paid_currency_code_desc'] = 'Code used by payment merchants';
 $txt['paid_currency_symbol'] = 'Symbol used by payment method';
+// argument(s): TODO
 $txt['paid_currency_symbol_desc'] = 'Use \'%1.2f\' to specify where number goes. For example $%1.2f, %1.2fDM etc';
 $txt['paid_settings_save'] = 'Save';
 
@@ -131,6 +137,7 @@ $txt['year'] = 'Year';
 
 // View subscribed users.
 $txt['viewing_users_subscribed'] = 'Viewing Users';
+// argument(s): TODO
 $txt['view_users_subscribed'] = 'Viewing users subscribed to: &quot;%1$s&quot;';
 $txt['no_subscribers'] = 'There are currently no subscribers to this subscription.';
 $txt['add_subscriber'] = 'Add new Subscriber';
@@ -165,6 +172,7 @@ $txt['paid_sub_return'] = 'Return to Subscriptions';
 $txt['paid_current_desc'] = 'Below is a list of all your current and previous subscriptions. To extend an existing subscription simply select it from the list above.';
 $txt['paid_admin_add'] = 'Add This Subscription';
 
+// argument(s): TODO
 $txt['paid_not_set_currency'] = 'You have not setup your currency yet. Please do so from the <a href="%1$s">Settings</a> section before continuing.';
 $txt['paid_no_cost_value'] = 'You must enter a cost and subscription length.';
 $txt['paid_invalid_duration'] = 'You must enter a valid duration for this subscription.';
@@ -182,9 +190,13 @@ $txt['paid_sub_not_active'] = 'That subscription is not taking any new users.';
 $txt['paid_disabled'] = 'Paid subscriptions are currently disabled.';
 $txt['paid_unknown_transaction_type'] = 'Unknown Paid Subscriptions transaction type.';
 $txt['paid_empty_member'] = 'Paid subscription handler could not recover member ID';
+// argument(s): TODO
 $txt['paid_could_not_find_member'] = 'Paid subscription handler could not find member with ID: %1$d';
+// argument(s): TODO
 $txt['paid_count_not_find_subscription'] = 'Paid subscription handler could not find subscription for member ID: %1$s, subscription ID: %2$s';
+// argument(s): TODO
 $txt['paid_count_not_find_subscription_log'] = 'Paid subscription handler could not find subscription log entry for member ID: %1$s, subscription ID: %2$s';
+// argument(s): TODO
 $txt['paid_count_not_find_outstanding_payment'] = 'Could not find outstanding payment entry for member ID: %1$s, subscription ID: %2$s so ignoring';
 $txt['paid_admin_not_setup_gateway'] = 'Sorry, the admin has not yet finished setting up paid subscriptions. Please check back later.';
 $txt['paid_make_recurring'] = 'Make this a recurring payment';

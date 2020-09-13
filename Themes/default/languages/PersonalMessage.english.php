@@ -39,16 +39,23 @@ $txt['remove_conversation'] = 'Remove all messages in this conversation?';
 $txt['pm'] = 'Personal Message';
 
 $txt['pm_capacity'] = 'Capacity';
+// argument(s): TODO
 $txt['pm_currently_using'] = '%1$s messages, %2$s%% full.';
 $txt['pm_sent'] = 'Your message has been sent successfully.';
 
+// argument(s): TODO
 $txt['pm_error_user_not_found'] = 'Unable to find member \'%1$s\'.';
+// argument(s): TODO
 $txt['pm_error_ignored_by_user'] = 'User \'%1$s\' has blocked your personal message.';
+// argument(s): TODO
 $txt['pm_error_data_limit_reached'] = 'PM could not be sent to \'%1$s\' as their inbox is full.';
+// argument(s): TODO
 $txt['pm_error_user_cannot_read'] = 'User \'%1$s\' can not receive personal messages.';
+// argument(s): TODO
 $txt['pm_successfully_sent'] = 'PM successfully sent to \'%1$s\'.';
 $txt['pm_send_report'] = 'Send report';
 $txt['pm_undisclosed_recipients'] = 'Undisclosed recipients';
+// argument(s): TODO
 $txt['pm_too_many_recipients'] = 'You may not send personal messages to more than %1$d recipient(s) at once.';
 
 $txt['pm_read'] = 'Read';
@@ -109,6 +116,7 @@ $txt['pm_report_pm_subject'] = '[REPORT] ';
 // In the below string, do not translate "{REPORTER}" or "{SENDER}".
 $txt['pm_report_pm_user_sent'] = '{REPORTER} has reported the below personal message, sent by {SENDER}, for the following reason:';
 $txt['pm_report_pm_other_recipients'] = 'Other recipients of the message include:';
+// argument(s): TODO
 $txt['pm_report_pm_hidden'] = '%1$d hidden recipient(s)';
 $txt['pm_report_pm_unedited_below'] = 'Below are the original contents of the personal message which was reported:';
 $txt['pm_report_pm_sent'] = 'Sent:';
@@ -136,6 +144,7 @@ $txt['pm_search_choose_label'] = 'Choose labels to search by, or search all';
 
 $txt['pm_search_results'] = 'Search results';
 $txt['pm_search_none_found'] = 'No messages found';
+// argument(s): TODO
 $txt['pm_search_results_info'] = 'Found %1$d matching messages in %2$s.';
 
 $txt['pm_search_orderby_relevant_first'] = 'Most relevant first';

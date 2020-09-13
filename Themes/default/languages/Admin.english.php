@@ -4,6 +4,7 @@
 global $settings, $scripturl;
 
 $txt['settings_saved'] = 'The settings were successfully saved';
+// argument(s): TODO
 $txt['settings_not_saved'] = 'Your changes were not saved because: %1$s';
 
 $txt['admin_boards'] = 'Boards and Categories';
@@ -45,6 +46,7 @@ $txt['admin_agreement_select_language_change'] = 'Change';
 $txt['admin_agreement_not_saved'] = 'The agreement changes have not been saved. Perhaps the file permissions on the file were not set correctly.';
 $txt['admin_delete_members'] = 'Delete Selected Members';
 $txt['admin_repair'] = 'Repair all boards and topics';
+// argument(s): TODO
 $txt['admin_main_welcome'] = 'This is your &quot;%1$s&quot;. From here, you can edit settings, maintain your forum, view logs, install packages, manage themes, and many other things.<br><br>If you have any trouble, please look at the &quot;Support &amp; Credits&quot; page. If the information there doesn\'t help you, feel free to <a href="https://www.simplemachines.org/community/index.php" target="_blank" rel="noopener">look to us for help</a> with the problem.<br>You may also find answers to your questions or problems by clicking the <span class="main_icons help" title="%3$s"></span> symbols for more information on the related functions.';
 $txt['admin_news_desc'] = 'Please place one news item per box. BBC tags, such as <span title="Are you bold?">[b]</span>, <span title="I tall icks!!">[i]</span> and <span title="Brackets are great, no?">[u]</span> are allowed in your news, as well as smileys. Clear a news item\'s text box to remove it.';
 $txt['administrators'] = 'Forum Administrators';
@@ -212,6 +214,7 @@ $txt['maintain_sub_database'] = 'Database';
 $txt['maintain_sub_routine'] = 'Routine';
 $txt['maintain_sub_members'] = 'Members';
 $txt['maintain_sub_topics'] = 'Topics';
+// argument(s): TODO
 $txt['maintain_done'] = 'The maintenance task \'%1$s\' was executed successfully.';
 $txt['maintain_no_errors'] = 'Congratulations, no errors were found. Thanks for checking.';
 
@@ -244,6 +247,7 @@ $txt['default_language'] = 'Default forum language';
 $txt['maintenance_subject'] = 'Subject for display';
 $txt['maintenance_message'] = 'Message for display';
 
+// argument(s): TODO
 $txt['errorlog_desc'] = 'The error log tracks every error encountered by your forum. To delete any errors from the database, mark the checkbox, and click the %1$s button at the bottom of the page.';
 $txt['errorlog_no_entries'] = 'There are currently no error log entries.';
 
@@ -287,14 +291,18 @@ $txt['support_credits_title'] = 'Support and Credits';
 $txt['support_title'] = 'Support Information';
 $txt['support_versions_current'] = 'Current SMF version';
 $txt['support_versions_forum'] = 'Forum version';
+// argument(s): TODO
 $txt['support_versions_db'] = '%1$s version';
+// argument(s): TODO
 $txt['support_versions_db_engine'] = '%1$s engine';
 $txt['support_versions_server'] = 'Server version';
 $txt['support_versions_gd'] = 'GD version';
 $txt['support_versions_imagemagick'] = 'ImageMagick version';
 $txt['support_versions'] = 'Version Information';
 $txt['support_resources'] = 'Support Resources';
+// argument(s): TODO
 $txt['support_resources_p1'] = 'Our <a href="%1$s">Online Manual</a> provides the main documentation for SMF. The SMF Online Manual has many documents to help answer support questions and explain <a href="%2$s">Features</a>, <a href="%3$s">Settings</a>, <a href="%4$s">Themes</a>, <a href="%5$s">Packages</a>, etc. The Online Manual documents each area of SMF thoroughly and should answer most questions quickly.';
+// argument(s): TODO
 $txt['support_resources_p2'] = 'If you can\'t find the answers to your questions in the Online Manual, you may want to search our <a href="%1$s">Support Community</a> or ask for assistance in either our <a href="%2$s">English</a> or one of our many <a href="%3$s">international support boards</a>. The SMF Support Community can be used for <a href="%4$s">support</a>, <a href="%5$s">customization</a>, and many other things such as discussing SMF, finding a host, and discussing administrative issues with other forum administrators.';
 
 $txt['membergroups_members'] = 'Regular Members';
@@ -344,6 +352,7 @@ $txt['attachmentPostLimit'] = 'Max attachment size per post';
 $txt['attachmentSizeLimit'] = 'Max size per attachment';
 $txt['attachmentNumPerPostLimit'] = 'Max number of attachments per post';
 $txt['attachment_img_enc_warning'] = 'Neither the GD module nor the IMagick or MagickWand extensions are currently installed. Image re-encoding is not possible.';
+// argument(s): TODO
 $txt['attachment_ini_max'] = 'Maxmimum allowed by php.ini: %1$s';
 $txt['attachment_image_reencode'] = 'Re-encode potentially dangerous image attachments';
 $txt['attachment_image_paranoid_warning'] = 'The extensive security checks can result in a large number of rejected attachments.';
@@ -426,7 +435,9 @@ $txt['attachment_transfer_no_base'] = 'No base directories available.';
 $txt['attachment_transfer_forum_root'] = 'Forum root directory.';
 $txt['attachment_transfer_no_room'] = 'Directory size or file count limit reached.';
 $txt['attachment_transfer_no_find'] = 'No files were found to transfer.';
+// argument(s): TODO
 $txt['attachments_transferred'] = '%1$d files were transferred to %2$s';
+// argument(s): TODO
 $txt['attachments_not_transferred'] = '%1$d files were not transferred.';
 $txt['attachment_transfer_no_dir'] = 'Either the source directory or one of the target options were not selected.';
 $txt['attachment_transfer_same_dir'] = 'You cannot select the same directory as both the source and target.';
@@ -489,14 +500,23 @@ $txt['repair_attachments_no_errors'] = 'No errors were found';
 $txt['repair_attachments_error_desc'] = 'The following errors were found during maintenance. Check the box next to the errors you wish to fix and hit continue.';
 $txt['repair_attachments_continue'] = 'Continue';
 $txt['repair_attachments_cancel'] = 'Cancel';
+// argument(s): TODO
 $txt['attach_repair_missing_thumbnail_parent'] = '%1$d thumbnails are missing a parent attachment';
+// argument(s): TODO
 $txt['attach_repair_parent_missing_thumbnail'] = '%1$d parents are flagged as having thumbnails but don\'t';
+// argument(s): TODO
 $txt['attach_repair_file_missing_on_disk'] = '%1$d attachments/avatars have an entry but no longer exist on disk';
+// argument(s): TODO
 $txt['attach_repair_file_wrong_size'] = '%1$d attachments/avatars are being reported as the wrong filesize';
+// argument(s): TODO
 $txt['attach_repair_file_size_of_zero'] = '%1$d attachments/avatars have a size of zero on disk. (These will be deleted)';
+// argument(s): TODO
 $txt['attach_repair_attachment_no_msg'] = '%1$d attachments no longer have a message associated with them';
+// argument(s): TODO
 $txt['attach_repair_avatar_no_member'] = '%1$d avatars no longer have a member associated with them';
+// argument(s): TODO
 $txt['attach_repair_wrong_folder'] = '%1$d attachments are in the wrong directory';
+// argument(s): TODO
 $txt['attach_repair_files_without_attachment'] = '%1$d files do not have a corresponding entry in the database. (These will be deleted)';
 
 $txt['news_title'] = 'News and Newsletters';
@@ -553,6 +573,7 @@ $txt['enableSpellChecking'] = 'Enable spell checking';
 $txt['disable_wysiwyg'] = 'Disable WYSIWYG editor';
 $txt['max_messageLength'] = 'Maximum allowed post size';
 $txt['max_messageLength_zero'] = '0 for no max.';
+// argument(s): TODO
 $txt['convert_to_mediumtext'] = 'Your database is not configured to accept messages longer than 65535 characters. Please use the <a href="%1$s">database maintenance</a> page to convert the database and then come back to increase the maximum allowed post size.';
 $txt['topicSummaryPosts'] = 'Posts to show on topic summary';
 $txt['spamWaitTime'] = 'Time required between posts from the same IP';
@@ -580,6 +601,7 @@ $txt['legacyBBC'] = 'Legacy BBC tags';
 $txt['bbcTagsToUse'] = 'Enabled BBC tags';
 $txt['enabled_bbc_select'] = 'Select the tags which are allowed to be used';
 $txt['enabled_bbc_select_all'] = 'Select all tags';
+// argument(s): TODO
 $txt['groups_can_use'] = 'Membergroups allowed to use %1$s';
 
 $txt['enableParticipation'] = 'Enable participation icons';
@@ -644,6 +666,7 @@ $txt['admin_search_type_member'] = 'Member';
 $txt['admin_search_type_online'] = 'Online Manual';
 $txt['admin_search_go'] = 'Go';
 $txt['admin_search_results'] = 'Search Results';
+// argument(s): TODO
 $txt['admin_search_results_desc'] = 'Results for search: &quot;%1$s&quot;';
 $txt['admin_search_results_again'] = 'Search again';
 $txt['admin_search_results_none'] = 'No results found.';

@@ -6,17 +6,20 @@ $txt['permissions_modify'] = 'Modify';
 $txt['permissions_view'] = 'View';
 $txt['permissions_allowed'] = 'Allowed';
 $txt['permissions_denied'] = 'Denied';
+// argument(s): TODO
 $txt['permission_cannot_edit'] = '<strong>Note:</strong> You cannot edit this permission profile as it is a predefined profile included within the forum software by default. If you wish to change the permissions of this profile you must first create a duplicate profile. You can carry out this task by clicking <a href="%1$s">here</a>.';
 
 $txt['permissions_for_profile'] = 'Permissions for Profile';
 $txt['permissions_boards_desc'] = 'The list below shows which set of permissions has been assigned to each board on your forum. You may edit the assigned permission profile by either clicking the board name or select &quot;edit all&quot; from the bottom of the page. To edit the profile itself simply click the profile name.';
 $txt['permissions_board_all'] = 'Edit All';
 $txt['permission_profile'] = 'Permission Profile';
+// argument(s): TODO
 $txt['permission_profile_desc'] = 'Which <a href="%1$s">permission set</a> the board should use.';
 $txt['permission_profile_inherit'] = 'Inherit from parent board';
 
 $txt['permissions_profile'] = 'Profile';
 $txt['permissions_profiles_desc'] = 'Permission profiles are assigned to individual boards to allow you to easily manage your security settings. From this area you can create, edit and delete permission profiles.';
+// argument(s): TODO
 $txt['permissions_profiles_change_for_board'] = 'Edit Permission Profile For: &quot;%1$s&quot;';
 $txt['permissions_profile_default'] = 'Default';
 $txt['permissions_profile_no_polls'] = 'No Polls';
@@ -30,6 +33,7 @@ $txt['permissions_profile_new_create'] = 'Create';
 $txt['permissions_profile_name'] = 'Profile Name';
 $txt['permissions_profile_used_by'] = 'Used By';
 $txt['permissions_profile_used_by_one'] = '1 Board';
+// argument(s): TODO
 $txt['permissions_profile_used_by_many'] = '%1$d Boards';
 $txt['permissions_profile_used_by_none'] = 'No Boards';
 $txt['permissions_profile_do_edit'] = 'Edit';
@@ -324,6 +328,7 @@ $txt['auto_approve_replies'] = 'Post replies to topics, without requiring approv
 $txt['auto_approve_attachments'] = 'Post attachments, without requiring approval';
 
 $txt['permissiongroup_bbc'] = 'BBCode';
+// argument(s): TODO
 $txt['permissionname_bbc'] = 'Use the [%1$s] BBCode';
 $txt['permissionhelp_bbc_html'] = 'This permission allows a member to use the [html] BBCode to embed arbitrary HTML in posts, personal messages, etc.<br><br><strong>Embedding arbitrary HTML can break your site and create major security risks. <u>Do not grant this permission to anyone unless you completely trust them not to break your website!</u></strong>';
 $txt['permissionnote_bbc_html'] = 'Creates a security risk!';

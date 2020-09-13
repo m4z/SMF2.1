@@ -41,6 +41,7 @@ $txt['modlog_go'] = 'Go';
 $txt['modlog_add'] = 'Add';
 $txt['modlog_search'] = 'Quick Search';
 $txt['modlog_by'] = 'By';
+// argument(s): TODO
 $txt['modlog_id'] = '<em>Deleted - ID:%1$d</em>';
 
 $txt['modlog_ac_add_warn_template'] = 'Added warning template: &quot;{template}&quot;';

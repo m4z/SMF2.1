@@ -35,7 +35,9 @@ $txt['scheduled_task_desc_remove_topic_redirect'] = 'Deletes "MOVED:" topic noti
 $txt['scheduled_task_remove_temp_attachments'] = 'Remove temporary attachment files';
 $txt['scheduled_task_desc_remove_temp_attachments'] = 'Deletes temporary files created while attaching a file to a post that for any reason weren\'t renamed or deleted before.';
 
+// argument(s): TODO
 $txt['scheduled_task_reg_starting'] = 'Starting at %1$s';
+// argument(s): TODO
 $txt['scheduled_task_reg_repeating'] = 'repeating every %1$d %2$s';
 $txt['scheduled_task_reg_unit_m'] = 'minute(s)';
 $txt['scheduled_task_reg_unit_h'] = 'hour(s)';
@@ -47,12 +49,14 @@ $txt['scheduled_task_edit_repeat'] = 'Repeat task every';
 $txt['scheduled_task_edit_interval'] = 'Interval';
 $txt['scheduled_task_edit_start_time'] = 'Start time';
 $txt['scheduled_task_edit_start_time_desc'] = 'Time the first instance of the day should start (hours:minutes)';
+// argument(s): TODO
 $txt['scheduled_task_time_offset'] = 'Note the start time should be the offset against the current server time. Current server time is: %1$s';
 
 $txt['scheduled_view_log'] = 'View Log';
 $txt['scheduled_log_empty'] = 'There are currently no task log entries.';
 $txt['scheduled_log_time_run'] = 'Time Run';
 $txt['scheduled_log_time_taken'] = 'Time taken';
+// argument(s): TODO
 $txt['scheduled_log_time_taken_seconds'] = '%1$d seconds';
 $txt['scheduled_log_empty_log'] = 'Clear Log';
 $txt['scheduled_log_empty_log_confirm'] = 'Are you sure you want to completely clear the log?';

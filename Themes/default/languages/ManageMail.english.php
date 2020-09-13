@@ -28,13 +28,21 @@ $txt['personal_message'] = 'Personal Message';
 // Do not use numeric entities in below string.
 $txt['mailqueue_clear_list_warning'] = 'Are you sure you wish to send the whole mail queue now? This will override any limits you have set.';
 
+// argument(s): TODO
 $txt['mq_day'] = '%1.1f Day';
+// argument(s): TODO
 $txt['mq_days'] = '%1.1f Days';
+// argument(s): TODO
 $txt['mq_hour'] = '%1.1f Hour';
+// argument(s): TODO
 $txt['mq_hours'] = '%1.1f Hours';
+// argument(s): TODO
 $txt['mq_minute'] = '%1$d Minute';
+// argument(s): TODO
 $txt['mq_minutes'] = '%1$d Minutes';
+// argument(s): TODO
 $txt['mq_second'] = '%1$d Second';
+// argument(s): TODO
 $txt['mq_seconds'] = '%1$d Seconds';
 
 $txt['mq_mpriority_5'] = 'Very Low';
@@ -49,6 +57,7 @@ $txt['birthday_subject'] = 'Email subject';
 
 $txt['mailtest_header'] = 'Email Test';
 $txt['mailtest_result_success'] = 'Successfully sent a test message';
+// argument(s): TODO
 $txt['mailtest_result_failure'] = 'Unable to send a test message, check the <a href="%1$s">error log</a> for more information.';
 
 ?>

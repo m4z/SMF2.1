@@ -95,7 +95,9 @@ $txt['search_create_index_done_link'] = 'Continue';
 $txt['search_double_index'] = 'You have currently created two indexes on the messages table. For best performance it is advisable to remove one of the two indexes.';
 
 $txt['search_error_indexed_chars'] = 'Invalid number of indexed characters. At least 3 characters are needed for a useful index.';
+// argument(s): TODO
 $txt['search_error_max_percentage'] = 'Invalid percentage of words to be skipped. Use a value of at least 5%.';
+// argument(s): TODO
 $txt['error_string_too_long'] = 'Search string must be less than %1$d characters long.';
 
 $txt['search_adjust_query'] = 'Adjust Search Parameters';
@@ -113,6 +115,7 @@ $txt['spider_mode_off'] = 'Disabled';
 $txt['spider_mode_standard'] = 'Standard';
 $txt['spider_mode_high'] = 'Moderate';
 $txt['spider_mode_vhigh'] = 'Aggressive';
+// argument(s): TODO
 $txt['spider_settings_desc'] = 'You can change settings for spider tracking from this page. Note, if you wish to enable automatic pruning of the hit logs you can set this up <a href="%1$s">here</a>';
 
 $txt['spider_group'] = 'Apply restrictive permissions from group';
@@ -155,6 +158,7 @@ $txt['spider_logs_delete_older'] = 'Delete all entries older than';
 $txt['spider_logs_delete_day'] = 'days.';
 $txt['spider_logs_delete_submit'] = 'Delete';
 
+// argument(s): TODO
 $txt['spider_stats_delete_older'] = 'Delete all spider statistics from spiders not seen in %1$s days.';
 
 // Don't use entities in the below string.

@@ -52,6 +52,7 @@ $txt['attach_add'] = 'Add files';
 $txt['attach_drop_zone'] = 'Drag and drop your files here, or use the button to add files.';
 $txt['attach_drop_unlimited'] = 'unlimited';
 $txt['attach_drop_zone_no'] = 'Your browser does not support drag and drop file uploads';
+// argument(s): TODO
 $txt['cant_upload_type'] = 'You cannot upload that type of file. The only allowed extensions are %1$s.';
 $txt['uncheck_unwatchd_attach'] = 'Uncheck the attachments you no longer want attached';
 $txt['restricted_filename'] = 'That is a restricted filename. Please try a different filename.';
@@ -68,20 +69,28 @@ $txt['reported_post'] = 'Reported post';
 $txt['reported_to_mod_by'] = 'by';
 $txt['report_submit'] = 'Submit';
 // Use numeric entities in the below four strings.
+// argument(s): TODO
 $txt['report_following_post'] = 'The following post, "%1$s" by';
 $txt['reported_by'] = 'has been reported by';
 $txt['board_moderate'] = 'on a board you moderate';
 $txt['report_comment'] = 'The reporter has made the following comment';
 
 // Use numeric entities in the below three strings.
+// argument(s): TODO
 $txt['report_profile'] = 'Report profile of \'%1$s\'';
 $txt['reported_profile'] = 'Reported user';
+// argument(s): TODO
 $txt['report_following_user'] = 'The profile of "%1$s" at %2$s';
 
+// argument(s): TODO
 $txt['attach_restrict_attachmentPostLimit'] = 'maximum total size %1$d KB';
+// argument(s): TODO
 $txt['attach_restrict_attachmentPostLimit_MB'] = 'maximum total size %1$d MB';
+// argument(s): TODO
 $txt['attach_restrict_attachmentSizeLimit'] = 'maximum individual size %1$d KB';
+// argument(s): TODO
 $txt['attach_restrict_attachmentSizeLimit_MB'] = 'maximum individual size %1$d MB';
+// argument(s): TODO
 $txt['attach_restrict_attachmentNumPerPostLimit'] = '%1$d per post';
 $txt['attach_restrictions'] = 'Restrictions:';
 
@@ -106,6 +115,7 @@ $txt['poll_results_voted'] = 'Only show the results after someone has voted.';
 $txt['poll_results_after'] = 'Only show the results after the poll has expired.';
 $txt['poll_max_votes'] = 'Maximum votes per user';
 $txt['poll_do_change_vote'] = 'Allow users to change vote';
+// argument(s): TODO
 $txt['poll_too_many_votes'] = 'You selected too many options. For this poll, you may only select %1$s options.';
 $txt['poll_add_option'] = 'Add Option';
 $txt['poll_guest_vote'] = 'Allow guests to vote';
@@ -128,8 +138,10 @@ $txt['more_smileys_pick'] = 'Pick a smiley';
 $txt['more_smileys_close_window'] = 'Close Window';
 
 $txt['error_new_reply'] = 'Warning - while you were typing a new reply has been posted. You may wish to review your post.';
+// argument(s): TODO
 $txt['error_new_replies'] = 'Warning - while you were typing %1$d new replies have been posted. You may wish to review your post.';
 $txt['error_new_reply_reading'] = 'Warning - while you were reading a new reply has been posted. You may wish to review your post.';
+// argument(s): TODO
 $txt['error_new_replies_reading'] = 'Warning - while you were reading %1$d new replies have been posted. You may wish to review your post.';
 
 $txt['error_topic_locked'] = 'Warning - while you were typing the topic was locked. Please check the "Lock this topic" box under "Attachments and other options" below if you do not wish to undo this action.';
@@ -148,34 +160,53 @@ $txt['announce_regular_members'] = 'Regular Members';
 
 $txt['digest_subject_daily'] = 'Daily Digest';
 $txt['digest_subject_weekly'] = 'Weekly Digest';
+// argument(s): TODO
 $txt['digest_intro_daily'] = 'Below is a summary of all activity in your subscribed boards and topics at %1$s today. To unsubscribe please visit the link below.';
+// argument(s): TODO
 $txt['digest_intro_weekly'] = 'Below is a summary of all activity in your subscribed boards and topics at %1$s this week. To unsubscribe please visit the link below.';
 $txt['digest_new_topics'] = 'The following topics have been started';
+// argument(s): TODO
 $txt['digest_new_topics_line'] = '"%1$s" in "%2$s"';
 $txt['digest_new_replies'] = 'Replies have been made in the following topics';
+// argument(s): TODO
 $txt['digest_new_replies_one'] = '1 reply in "%1$s"';
+// argument(s): TODO
 $txt['digest_new_replies_many'] = '%1$d replies in "%2$s"';
 $txt['digest_mod_actions'] = 'The following moderation actions have taken place';
+// argument(s): TODO
 $txt['digest_mod_act_sticky'] = '"%1$s" was stickied';
+// argument(s): TODO
 $txt['digest_mod_act_lock'] = '"%1$s" was locked';
+// argument(s): TODO
 $txt['digest_mod_act_unlock'] = '"%1$s" was unlocked';
+// argument(s): TODO
 $txt['digest_mod_act_remove'] = '"%1$s" was removed';
+// argument(s): TODO
 $txt['digest_mod_act_move'] = '"%1$s" was moved';
+// argument(s): TODO
 $txt['digest_mod_act_merge'] = '"%1$s" was merged';
+// argument(s): TODO
 $txt['digest_mod_act_split'] = '"%1$s" was split';
 
 $txt['attach_error_title'] = 'Error uploading attachments.';
+// argument(s): TODO
 $txt['attach_warning'] = 'There was a problem during the uploading of <strong>%1$s</strong>.';
+// argument(s): TODO
 $txt['attach_check_nag'] = 'Unable to continue due to incomplete data (%1$s).';
+// argument(s): TODO
 $txt['attach_max_total_file_size'] = 'Sorry, you are out of attachment space. The total attachment size allowed per post is %1$s KB. Space remaining is %2$s kB.';
 $txt['attach_max_total_file_size_current'] = 'Sorry, you are out of attachment space. The current total attachment size allowed per post is {currentTotal} KB. The total amount of the selected files is {currentRemain} KB. Please delete one or more attachments.';
 $txt['attach_max_size_progress'] = 'The current total attachment size allowed per post is {currentTotal} KB. The total amount of the selected files is {currentRemain} KB.';
 $txt['attach_folder_warning'] = 'The attachments directory can not be located. Please notify an administrator of this problem.';
+// argument(s): TODO
 $txt['attach_folder_admin_warning'] = 'The path to the attachments directory (%1$s) is incorrect. Please correct it in the attachment settings area of your admin panel.';
 $txt['attach_limit_nag'] = 'You have reached the maximum number of attachments allowed per post.';
 $txt['attach_no_upload'] = 'There was a problem and your attachments could not be uploaded';
+// argument(s): TODO
 $txt['attach_remaining'] = '<span class="attach_remaining">%1$d</span> attachments remaining';
+// argument(s): TODO
 $txt['attach_available'] = '%1$s KB available';
+// argument(s): TODO
 $txt['attach_kb'] = ' (%1$s KB)';
 $txt['attach_0_byte_file'] = 'The file appears to be empty. Please contact your forum administrator if this continues to be a problem';
 $txt['attached_files_in_session'] = 'The above underlined file(s) have been uploaded but will not be attached to this post until it is submitted.';
@@ -199,14 +230,18 @@ $txt['php_upload_error_6'] = 'Unable to save. Missing a temporary directory. Ple
 $txt['php_upload_error_7'] = 'Failed to write file to disk. This is a PHP related error. Please contact your host if this problem continues.';
 $txt['php_upload_error_8'] = 'A PHP extension stopped the file upload. This is a PHP related error. Please contact your host if this problem continues.';
 $txt['error_temp_attachments_new'] = 'There are attachments which you had previously attached but not posted. These attachments are still attached to this post. This post does need to be submitted before these attachments are either saved or removed. You can do that <a href="#postAttachment">here</a>';
+// argument(s): TODO
 $txt['error_temp_attachments_found'] = 'The following attachments were found which you had previously attached to another post but not posted. It is advisable that you do not post until these are either removed or that post has been submitted.<br>Click <a href="%1$s">here</a> to remove those attachments. Or <a href="%2$s">here</a> to return to that post.%3$s';
+// argument(s): TODO
 $txt['error_temp_attachments_lost'] = 'The following attachments were found which you had previously attached to another post but not posted. It is advisable that you do not upload any more attachments until these are removed or that post has been submitted.<br>Click <a href="%1$s">here</a> to remove these attachments.%2$s';
 $txt['error_temp_attachments_gone'] = 'Those attachments have now been removed and you have been returned to the page you were previously on';
 $txt['error_temp_attachments_flushed'] = 'Please note that any files which had been previously attached but not posted have now been removed.';
+// argument(s): TODO
 $txt['error_cannot_post_attachment'] = 'You don\'t have permission to post attachments in %1$s. They have been removed.';
 $txt['error_topic_already_announced'] = 'Please note that this topic has already been announced.';
 
 $txt['cant_access_upload_path'] = 'Cannot access attachments upload path!';
+// argument(s): TODO
 $txt['file_too_big'] = 'Your file is too large. The maximum attachment size allowed is %1$s KB.';
 $txt['attach_timeout'] = 'Your attachment couldn\'t be saved. This might happen because it took too long to upload or the file is bigger than the server will allow.<br><br>Please consult your server administrator for more information.';
 $txt['bad_attachment'] = 'Your attachment has failed security checks and cannot be uploaded. Please consult the forum administrator.';
@@ -214,6 +249,7 @@ $txt['ran_out_of_space'] = 'The upload directory is full. Please contact an admi
 $txt['attachments_no_write'] = 'The attachments upload directory is not writable. Your attachment cannot be saved.';
 $txt['avatars_no_write'] = 'The avatars upload directory is not writable. Your avatar cannot be saved.';
 $txt['attachments_no_create'] = 'Unable to create a new attachment directory. Your attachment or avatar cannot be saved.';
+// argument(s): TODO
 $txt['attachments_limit_per_post'] = 'You may not upload more than %1$d attachments per post';
 
 $txt['approval_status'] = 'Approval status';

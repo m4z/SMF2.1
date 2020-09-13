@@ -52,6 +52,7 @@ $txt['complete_url'] = 'This must be a complete URL.';
 $txt['sig_info'] = 'Signatures are displayed at the bottom of each post or personal message. BBCode and smileys may be used in your signature.';
 $txt['no_signature_set'] = 'No signature set.';
 $txt['no_signature_preview'] = 'No signature to preview.';
+// argument(s): TODO
 $txt['max_sig_characters'] = 'Max characters: %1$d; characters remaining: ';
 $txt['send_member_pm'] = 'Send this member a personal message';
 $txt['hidden'] = 'hidden';
@@ -195,10 +196,13 @@ $txt['statPanel_total_topics'] = 'Total Topics started';
 $txt['statPanel_votes'] = 'votes';
 $txt['statPanel_polls'] = 'polls';
 $txt['statPanel_topBoards'] = 'Most popular Boards by Posts';
+// argument(s): TODO
 $txt['statPanel_topBoards_posts'] = '%1$d posts of the board\'s %2$d posts (%3$01.2f%%)';
+// argument(s): TODO
 $txt['statPanel_topBoards_memberposts'] = '%1$d posts of the member\'s %2$d posts (%3$01.2f%%)';
 $txt['statPanel_topBoardsActivity'] = 'Most popular Boards by Activity';
 $txt['statPanel_activityTime'] = 'Posting activity by Time';
+// argument(s): TODO
 $txt['statPanel_activityTime_posts'] = '%1$d posts (%2$d%%)';
 $txt['statPanel_timeOfDay'] = 'Time of Day';
 
@@ -213,6 +217,7 @@ $txt['deleteAccount_confirm'] = 'Are you completely sure you want to delete this
 $txt['deleteAccount_approval'] = 'Please note that the forum moderators will have to approve this account\'s deletion before it will be removed.';
 $txt['deleteAccount_permanent'] = 'Permanently delete topics/posts instead of recycling them?';
 
+// argument(s): TODO
 $txt['profile_of_username'] = 'Profile of %1$s';
 $txt['profileInfo'] = 'Profile Info';
 $txt['showPosts'] = 'Show posts';
@@ -277,8 +282,11 @@ $txt['own_profile_confirm'] = 'Are you sure you want to delete your account?';
 $txt['view_ips_by'] = 'View IPs used by';
 
 $txt['avatar_will_upload'] = 'Upload an avatar';
+// argument(s): TODO
 $txt['avatar_max_size_wh'] = 'Max size: %1$spx by %2$spx';
+// argument(s): TODO
 $txt['avatar_max_size_w'] = 'Max size: %1$spx wide';
+// argument(s): TODO
 $txt['avatar_max_size_h'] = 'Max size: %2$spx high';
 
 // Use numeric entities in the below three strings.
@@ -289,14 +297,16 @@ $txt['to_ask_password'] = 'to ask for your authentication details';
 $txt['user_email'] = 'Username/Email';
 
 // Use numeric entities in the below two strings.
-$txt['reminder_subject'] = 'New password for ' . $context['forum_name'];
 $txt['reminder_mail'] = 'This mail was sent because the \'forgot password\' function has been applied to your account. To set a new password, click the following link';
 $txt['reminder_sent'] = 'A mail has been sent to your email address. Click the link in that mail to set a new password.';
 $txt['reminder_set_password'] = 'Set Password';
 $txt['reminder_password_set'] = 'Password successfully set';
+// argument(s): TODO
 $txt['reminder_error'] = '%1$s failed to answer their secret question correctly when attempting to change a forgotten password.';
 
+// argument(s): TODO
 $txt['registration_not_approved'] = 'Sorry, this account has not yet been approved. If you need to change your email address please click <a href="%1$s">here</a>.';
+// argument(s): TODO
 $txt['registration_not_activated'] = 'Sorry, this account has not yet been activated. If you need to resend the activation email please click <a href="%1$s">here</a>';
 
 $txt['primary_membergroup'] = 'Primary Membergroup';
@@ -316,6 +326,7 @@ $txt['account_approve'] = 'approve';
 $txt['user_is_banned'] = 'User is currently banned';
 $txt['view_ban'] = 'View';
 $txt['user_banned_by_following'] = 'This user is currently affected by the following bans';
+// argument(s): TODO
 $txt['user_cannot_due_to'] = 'User cannot %1$s as a result of ban: &quot;%2$s&quot;';
 $txt['ban_type_post'] = 'post';
 $txt['ban_type_register'] = 'register';
@@ -427,17 +438,27 @@ $txt['request_group_membership_desc'] = 'Before you can join this group your mem
 $txt['submit_request'] = 'Submit Request';
 
 $txt['profile_updated_own'] = 'Your profile has been updated successfully.';
+// argument(s): TODO
 $txt['profile_updated_else'] = 'The profile of %1$s has been updated successfully.';
 
+// argument(s): TODO
 $txt['profile_error_signature_max_length'] = 'Your signature cannot be greater than %1$d characters';
+// argument(s): TODO
 $txt['profile_error_signature_max_lines'] = 'Your signature cannot span more than %1$d lines';
+// argument(s): TODO
 $txt['profile_error_signature_max_image_size'] = 'Images in your signature must be no greater than %1$dx%2$d pixels';
+// argument(s): TODO
 $txt['profile_error_signature_max_image_width'] = 'Images in your signature must be no wider than %1$d pixels';
+// argument(s): TODO
 $txt['profile_error_signature_max_image_height'] = 'Images in your signature must be no higher than %1$d pixels';
+// argument(s): TODO
 $txt['profile_error_signature_max_image_count'] = 'You cannot have more than %1$d images in your signature';
+// argument(s): TODO
 $txt['profile_error_signature_max_font_size'] = 'Text in your signature must be smaller than %1$s in size';
 $txt['profile_error_signature_allow_smileys'] = 'You are not allowed to use any smileys within your signature';
+// argument(s): TODO
 $txt['profile_error_signature_max_smileys'] = 'You are not allowed to use more than %1$d smileys within your signature';
+// argument(s): TODO
 $txt['profile_error_signature_disabled_bbc'] = 'The following BBC is not allowed within your signature: %1$s';
 
 $txt['profile_view_warnings'] = 'View Warnings';
@@ -458,6 +479,7 @@ $txt['profile_warning_is_moderation'] = 'posts are moderated';
 $txt['profile_warning_effect_mute'] = 'User will not be able to post.';
 $txt['profile_warning_effect_own_muted'] = 'You will not be able to post.';
 $txt['profile_warning_is_muted'] = 'cannot post';
+// argument(s): TODO
 $txt['profile_warning_effect_text'] = 'Level >= %1$d: %2$s';
 $txt['profile_warning_notify'] = 'Send a Notification';
 $txt['profile_warning_notify_template'] = 'Select template:';
@@ -475,6 +497,7 @@ $txt['profile_warning_notify_for_insulting'] = 'insulting other users and/or sta
 $txt['profile_warning_notify_title_insulting'] = 'Insulting Users/Staff';
 $txt['profile_warning_issue'] = 'Issue Warning';
 $txt['profile_warning_max'] = '(Max 100)';
+// argument(s): TODO
 $txt['profile_warning_limit_attribute'] = 'Note you can not adjust this user\'s level by more than %1$d%% in a 24 hour period.';
 $txt['profile_warning_errors_occured'] = 'Warning has not been sent due to following errors';
 $txt['profile_warning_success'] = 'Warning Successfully Issued';
@@ -489,6 +512,7 @@ $txt['profile_warning_previous_reason'] = 'Reason';
 $txt['profile_warning_previous_notice'] = 'View Notice Sent to Member';
 
 $txt['viewwarning'] = 'View Warnings';
+// argument(s): TODO
 $txt['profile_viewwarning_for_user'] = 'Warnings for %1$s';
 $txt['profile_viewwarning_no_warnings'] = 'No warnings have been issued.';
 $txt['profile_viewwarning_desc'] = 'Below is a summary of all the warnings that have been issued by the forum moderation team.';
@@ -534,6 +558,7 @@ $txt['trackEdit_action_id_group'] = 'Primary Membergroup';
 $txt['trackEdit_action_additional_groups'] = 'Additional Membergroups';
 
 $txt['trackGroupRequests'] = 'Group Requests';
+// argument(s): TODO
 $txt['trackGroupRequests_title'] = 'Group Requests for %1$s';
 $txt['requested_group'] = 'Requested Group';
 $txt['requested_group_reason'] = 'Reason Given';
@@ -541,8 +566,11 @@ $txt['requested_group_time'] = 'Date';
 $txt['requested_group_outcome'] = 'Outcome';
 $txt['requested_none'] = 'There are no requests made by this user.';
 $txt['outcome_pending'] = 'Open';
+// argument(s): TODO
 $txt['outcome_approved'] = 'Approved by %1$s on %2$s';
+// argument(s): TODO
 $txt['outcome_refused'] = 'Refused by %1$s on %2$s';
+// argument(s): TODO
 $txt['outcome_refused_reason'] = 'Refused by %1$s on %2$s, reason given: %3$s';
 
 $txt['report_profile'] = 'Report this member';
@@ -552,6 +580,7 @@ $txt['tfadisable'] = 'Disable Two-Factor Authentication';
 $txt['tfa_profile_label'] = 'Two-Factor Authentication';
 $txt['tfa_profile_desc'] = '2FA allows you to have a secondary layer of security by assigning a dedicated device without which no one would be able to log into your account even if they have your username and password';
 $txt['tfa_profile_enable'] = 'Enable Two-Factor Authentication';
+// argument(s): TODO
 $txt['tfa_profile_enabled'] = 'Two-Factor Authentication is enabled. <a href="%s">Disable</a>';
 $txt['tfa_profile_disabled'] = 'Two-Factor Authentication is disabled';
 $txt['tfa_title'] = 'Enable Two-Factor Authentication via compatible application';
@@ -574,6 +603,7 @@ $txt['tfa_code'] = 'Code';
 $txt['tfa_backup_code'] = 'Backup code';
 $txt['tfa_backup_desc'] = 'If you have lost your device or authentication app, you can use the backup code provided to you when two-factor authentication was setup. If you have lost that as well, please contact the administrator.';
 $txt['tfa_wait'] = 'Please wait for about 2 minutes before attempting to log in via two-factor authentication again.';
+// argument(s): TODO
 $txt['tfa_disable_for_user'] = 'This will disable two-factor authentication for %s.';
 $txt['cannot_disable_tfa'] = 'You cannot disable two-factor authentication because it is required on all accounts.';
 $txt['cannot_disable_tfa2'] = 'You cannot disable two-factor authentication because it is required on one or more of the membergroups that you belong to. Contact the administrator for more information.';
@@ -585,7 +615,9 @@ $txt['theme_opt_moderation'] = 'Moderation';
 $txt['theme_opt_personal_messages'] = 'Personal Messages';
 
 $txt['export_profile_data'] = 'Download profile data';
+// argument(s): TODO
 $txt['export_profile_data_desc'] = 'This section allows you to export a copy of your forum profile data to a downloadable file, optionally including your posts and personal messages.<br>Please note:<ul class="bbc_list">%1$s</ul>';
+// argument(s): TODO
 $txt['export_profile_data_desc_list'] = array('It may take some time for the system to finish compiling your data.', 'A download link will appear on this page once the export process is complete.', 'expiry' => 'Old export files are deleted after %1$d days.');
 $txt['active_exports'] = 'Exports currently in progress';
 $txt['completed_exports'] = 'Completed exports';
@@ -598,6 +630,7 @@ $txt['export_begin'] = 'Begin export';
 $txt['export_restart'] = 'Restart export';
 $txt['export_restart_confirm'] = 'This will delete the current profile export and start over using the new settings. Are you sure you want to do this?';
 $txt['export_cancel'] = 'Cancel';
+// argument(s): TODO
 $txt['export_file_desc'] = 'Included data: %1$s. File format: %2$s.';
 
 ?>

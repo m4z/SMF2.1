@@ -6,9 +6,13 @@ global $context;
 // Registration agreement page.
 $txt['registration_agreement'] = 'Registration Agreement';
 $txt['agreement_agree'] = 'I accept the terms of the agreement.';
+// argument(s): TODO
 $txt['agreement_agree_coppa_above'] = 'I accept the terms of the agreement and I am at least %1$d years old.';
+// argument(s): TODO
 $txt['agreement_agree_coppa_below'] = 'I accept the terms of the agreement and I am younger than %1$d years old.';
+// argument(s): TODO
 $txt['agree_coppa_above'] = 'I am at least %1$d years old.';
+// argument(s): TODO
 $txt['agree_coppa_below'] = 'I am younger than %1$d years old.';
 
 // Registration form.
@@ -22,6 +26,7 @@ $txt['registration_successful'] = 'Registration successful';
 $txt['now_a_member'] = 'Success! You are now a member of the forum.';
 // Use numeric entities in the below string.
 $txt['your_password'] = 'and your password is';
+// argument(s): TODO
 $txt['valid_email_needed'] = 'Please enter a valid email address, %1$s.';
 $txt['required_info'] = 'Required Information';
 $txt['identification_by_smf'] = 'Used to identify you on the forum.';
@@ -29,6 +34,7 @@ $txt['additional_information'] = 'Additional Information';
 $txt['warning'] = 'Warning!';
 $txt['only_members_can_access'] = 'Only registered members are allowed to access this section.';
 $txt['login_below'] = 'Please login below.';
+// argument(s): TODO, TODO
 $txt['login_below_or_register'] = 'Please login below or <a href="%1$s">sign up for an account</a> with %2$s';
 
 // Use numeric entities in the below two strings.
@@ -106,6 +112,7 @@ $txt['admin_register_email_activate'] = 'Require user to activate the account';
 $txt['admin_register_group'] = 'Primary Membergroup';
 $txt['admin_register_group_desc'] = 'Primary membergroup new member will belong to';
 $txt['admin_register_group_none'] = '(no primary membergroup)';
+// argument(s): TODO
 $txt['admin_register_done'] = 'Member %1$s has been registered successfully!';
 
 $txt['coppa_title'] = 'Age restricted Forum';

@@ -19,15 +19,18 @@ $txt['register_to_use'] = 'Sorry, you must sign up before using this feature.';
 $txt['password_invalid_character'] = 'Invalid character used in password.';
 $txt['name_invalid_character'] = 'Invalid character used in name.';
 $txt['email_invalid_character'] = 'Invalid character used in email.';
+// argument(s): TODO
 $txt['username_reserved'] = 'The username you tried to use contains the reserved name \'%1$s\'. Please try another username.';
 $txt['numbers_one_to_nine'] = 'This field only accepts numbers from 0-9';
 $txt['not_a_user'] = 'The user whose profile you are trying to view does not exist.';
 $txt['not_a_topic'] = 'This topic doesn\'t exist on this board.';
+// argument(s): TODO
 $txt['email_in_use'] = 'That email address (%1$s) is already being used by a registered member. If you feel this is a mistake, go to the login page and use the password reminder with that address.';
 $txt['attachments_no_write'] = 'The attachments directory is not writable';
 $txt['avatars_no_write'] = 'The avatars directory is not writable';
 $txt['attachment_not_created'] = 'The attachment could not be created';
 $txt['export_dir_not_writable'] = 'The export directory is not writable';
+// argument(s): TODO
 $txt['export_dir_forced_change'] = '%1$s is not writable. Retrying at %2$s';
 
 $txt['didnt_select_vote'] = 'You didn\'t select a vote option.';
@@ -172,6 +175,7 @@ $txt['board_doesnt_exist'] = 'The board does not exist.';
 $txt['invalid_days_numb'] = 'Invalid number of days to span.';
 
 $txt['moveto_noboards'] = 'There are no boards to move this topic to!';
+// argument(s): TODO
 $txt['topic_already_moved'] = 'This topic %1$s has been moved to the board %2$s, please check its new location before moving it again.';
 
 $txt['already_activated'] = 'Your account has already been activated.';
@@ -195,12 +199,15 @@ $txt['ban_ban_item_empty'] = 'Ban trigger not found';
 $txt['impossible_insert_new_bangroup'] = 'An error occurred while inserting the new ban';
 
 $txt['ban_name_exists'] = 'The name of this ban already exists. Please choose a different name.';
+// argument(s): TODO
 $txt['ban_trigger_already_exists'] = 'This ban trigger (%1$s) already exists in %2$s.';
 
 $txt['recycle_no_valid_board'] = 'No valid board selected for recycled topics';
+// argument(s): TODO
 $txt['post_already_deleted'] = 'The topic or message has already been moved to the recycle board. Are you sure you want to delete it completely?<br>If so follow <a href="%1$s">this link</a>';
 
 $txt['login_threshold_fail'] = 'Sorry, you are out of login chances. Please come back and try again later.';
+// argument(s): TODO
 $txt['login_threshold_brute_fail'] = 'Sorry, but you\'ve reached your login attempts threshold for account %1$s. Please wait 30 seconds and try again later.';
 
 $txt['who_off'] = 'You cannot access Who\'s Online right now because it is disabled.';
@@ -208,13 +215,21 @@ $txt['who_off'] = 'You cannot access Who\'s Online right now because it is disab
 $txt['merge_create_topic_failed'] = 'Error creating a new topic.';
 $txt['merge_need_more_topics'] = 'Merge topics requires at least two topics to merge.';
 
+// argument(s): TODO
 $txt['post_WaitTime_broken'] = 'The last posting from your IP was less than %1$d seconds ago. Please try again later.';
+// argument(s): TODO
 $txt['register_WaitTime_broken'] = 'You already registered just %1$d seconds ago!';
+// argument(s): TODO
 $txt['login_WaitTime_broken'] = 'You will have to wait about %1$d seconds to login again, sorry.';
+// argument(s): TODO
 $txt['pm_WaitTime_broken'] = 'The last personal message from your IP was less than %1$d seconds ago. Please try again later.';
+// argument(s): TODO
 $txt['reporttm_WaitTime_broken'] = 'The last topic report from your IP was less than %1$d seconds ago. Please try again later.';
+// argument(s): TODO
 $txt['sendmail_WaitTime_broken'] = 'The last email sent from your IP was less than %1$d seconds ago. Please try again later.';
+// argument(s): TODO
 $txt['search_WaitTime_broken'] = 'Your last search was less than %1$d seconds ago. Please try again later.';
+// argument(s): TODO
 $txt['remind_WaitTime_broken'] = 'Your last reminder was less than %1$d seconds ago. Please try again later.';
 
 $txt['email_missing_data'] = 'You must enter something in both the subject and message boxes.';
@@ -228,6 +243,7 @@ $txt['mangled_post'] = 'Mangled form data - please go back and try again.';
 $txt['too_many_groups'] = 'Sorry, you selected too many groups, please remove some from your selection.';
 $txt['post_upload_error'] = 'The post data is missing. This error can be caused by trying to submit a file larger than allowed by the server. Please contact your administrator if this problem continues.';
 $txt['quoted_post_deleted'] = 'The post you are trying to quote either does not exist, was deleted, or is no longer viewable by you.';
+// argument(s): TODO
 $txt['pm_too_many_per_hour'] = 'You have exceeded the limit of %1$d personal messages per hour.';
 
 $txt['register_only_once'] = 'Sorry, but you are not allowed to register multiple accounts at the same time from the same computer.';
@@ -242,6 +258,7 @@ $txt['error_no_event'] = 'No event name has been given.';
 $txt['error_no_subject'] = 'No subject was filled in.';
 $txt['error_no_question'] = 'No question was filled in for this poll.';
 $txt['error_no_message'] = 'The message body was left empty.';
+// argument(s): TODO
 $txt['error_long_message'] = 'The message exceeds the maximum allowed length (%1$d characters).';
 $txt['error_no_comment'] = 'The comment field was left empty.';
 // duplicate of post_too_long in Post.{language}.php
@@ -258,6 +275,7 @@ $txt['error_wrong_verification_code'] = 'The letters you typed do not match the 
 $txt['error_wrong_verification_recaptcha'] = 'Verification failed, invalid captcha value.';
 $txt['error_wrong_verification_answer'] = 'You did not answer the verification questions correctly.';
 $txt['error_need_verification_code'] = 'Please enter the verification code below to continue to the results.';
+// argument(s): TODO
 $txt['error_bad_file'] = 'Sorry but the file specified could not be opened: %1$s';
 $txt['error_bad_line'] = 'The line you specified is invalid.';
 $txt['error_draft_not_saved'] = 'There was an error saving the draft';
@@ -272,6 +290,7 @@ $txt['smiley_has_no_filename'] = 'No filename for this smiley was given.';
 $txt['smiley_not_unique'] = 'A smiley with that code already exists.';
 $txt['smiley_set_already_exists'] = 'A smiley set with that URL already exists';
 $txt['smiley_set_not_found'] = 'Smiley set not found';
+// argument(s): TODO
 $txt['smiley_set_dir_not_found'] = 'The directory of the smiley set %1$s is either invalid or cannot be accessed';
 $txt['smiley_set_path_already_used'] = 'The URL of the smiley set is already being used by another smiley set.';
 $txt['smiley_set_unable_to_import'] = 'Unable to import smiley set. Either the directory is invalid or cannot be accessed.';
@@ -285,6 +304,7 @@ $txt['search_invalid_weights'] = 'Search weights are not properly configured. At
 $txt['unable_to_create_temporary'] = 'The search function was unable to create temporary tables. Please try again.';
 
 $txt['package_no_file'] = 'Unable to find package file!';
+// argument(s): TODO
 $txt['packageget_unable'] = 'Unable to connect to the server. Please try using <a href="%1$s" target="_blank" rel="noopener">this URL</a> instead.';
 $txt['not_on_simplemachines'] = 'Sorry, packages can only be downloaded like this from the simplemachines.org server.';
 $txt['package_cant_uninstall'] = 'This package was either never installed or was already uninstalled - you cannot uninstall it now.';
@@ -292,8 +312,11 @@ $txt['package_cant_download'] = 'You cannot download or install new packages bec
 $txt['package_upload_error_nofile'] = 'You did not select a package to upload.';
 $txt['package_upload_error_failed'] = 'Could not upload package, please check directory permissions!';
 $txt['package_upload_error_exists'] = 'The file you are uploading already exists on the server. Please delete it first then try again.';
+// argument(s): TODO
 $txt['package_upload_error_supports'] = 'The package manager currently allows only these file types: %1$s.';
+// argument(s): TODO
 $txt['package_upload_error_broken'] = 'Package upload failed due to the following error:<br>&quot;%1$s&quot;';
+// argument(s): TODO
 $txt['package_theme_upload_error_broken'] = 'Theme upload failed due to the following error:<br>&quot;%1$s&quot;';
 
 $txt['package_get_error_not_found'] = 'The package you are trying to install cannot be located. You may want to manually upload the package to your Packages directory.';
@@ -302,8 +325,11 @@ $txt['package_get_error_is_zero'] = 'Although the package was downloaded to the 
 $txt['package_get_error_packageinfo_corrupt'] = 'SMF was unable to find any valid information within the package-info.xml file included within the Package. There may be an error with the modification, or the package may be corrupt.';
 $txt['package_get_error_is_theme'] = 'You cannot install a Theme from this section, please use the <a href="{MANAGETHEMEURL}">Themes and Layout</a> management page to upload it';
 $txt['package_get_error_is_mod'] = 'You cannot install a mod from this section, please use the <a href="{MANAGEMODURL}">Package manager</a> page to upload it';
+// argument(s): TODO
 $txt['package_get_error_theme_not_compatible'] = 'Your theme does not show it has compatibility with %1$s. Please contact the theme author.';
+// argument(s): TODO
 $txt['package_get_error_theme_no_based_on_found'] = 'The theme you are trying to install depends on another theme: %1$s. You need to install that theme first.';
+// argument(s): TODO
 $txt['package_get_error_theme_no_new_version'] = 'The theme you are trying to install is already installed or is an outdated version of it. The version already installed is: %2$s and the version you\'re trying to install is: %1$s.';
 
 $txt['no_membergroup_selected'] = 'No membergroup selected';
@@ -356,6 +382,7 @@ $txt['profile_error_custom_field_regex_fail'] = 'The regex verification returned
 $txt['profile_error_custom_field_nohtml_fail'] = 'HTML tags are not allowed.';
 
 // Registration form.
+// argument(s): TODO
 $txt['under_age_registration_prohibited'] = 'Sorry, but users under the age of %1$d are not allowed to register on this forum.';
 $txt['error_too_quickly'] = 'You went through registration a bit too quickly, faster than should normally be possible. Please give it a moment and try again.';
 $txt['mysql_error_space'] = ' - check database storage space or contact the server administrator.';
@@ -364,6 +391,7 @@ $txt['icon_not_found'] = 'The icon image could not be found in the default theme
 $txt['icon_after_itself'] = 'The icon cannot be positioned after itself.';
 $txt['icon_name_too_long'] = 'Icon filenames cannot be more than 16 characters long';
 
+// argument(s): TODO
 $txt['name_censored'] = 'Sorry, the name you tried to use, %1$s, contains words which have been censored. Please try another name.';
 
 $txt['poll_already_exists'] = 'A topic can only have one poll associated with it.';
@@ -385,7 +413,9 @@ $txt['cannot_edit_permissions_inherited'] = 'You cannot edit inherited permissio
 $txt['mc_no_modreport_specified'] = 'You need to specify which report you wish to view.';
 $txt['mc_no_modreport_found'] = 'The specified report either does not exist or is off limits to you';
 
+// argument(s): TODO
 $txt['st_cannot_retrieve_file'] = 'Could not retrieve the file %1$s.';
+// argument(s): TODO
 $txt['admin_file_not_found'] = 'Could not load the requested file: %1$s.';
 
 $txt['themes_none_selectable'] = 'At least one theme must be selectable.';
@@ -398,7 +428,9 @@ $txt['mboards_delete_board_error'] = 'No board selected.';
 $txt['mboards_parent_own_child_error'] = 'You cannot make a board into a sub-board of itself.';
 $txt['mboards_board_own_child_error'] = 'You cannot make a board into its own sub-board.';
 
+// argument(s): TODO
 $txt['smileys_upload_error_notwritable'] = 'The following smiley directories are not writable: %1$s';
+// argument(s): TODO
 $txt['smileys_upload_error_types'] = 'Smiley images can only have the following extensions: %1$s.';
 
 $txt['change_email_success'] = 'Your email address has been changed, and a new activation email has been sent to it.';
@@ -415,32 +447,46 @@ $txt['cannot_connect_doc_site'] = 'Could not connect to the Simple Machines Onli
 
 $txt['movetopic_no_reason'] = 'You must enter a reason for moving the topic, or uncheck the option to \'post a redirection topic\'.';
 
+// argument(s): TODO
 $txt['error_custom_field_too_long'] = 'The &quot;%1$s&quot; field cannot be greater than %2$d characters in length.';
+// argument(s): TODO
 $txt['error_custom_field_invalid_email'] = 'The &quot;%1$s&quot; field must be a valid email address.';
+// argument(s): TODO
 $txt['error_custom_field_not_number'] = 'The &quot;%1$s&quot; field must be numeric.';
+// argument(s): TODO
 $txt['error_custom_field_inproper_format'] = 'The &quot;%1$s&quot; field is an invalid format.';
+// argument(s): TODO
 $txt['error_custom_field_empty'] = 'The &quot;%1$s&quot; field cannot be left blank.';
 
+// argument(s): TODO
 $txt['email_no_template'] = 'The email template &quot;%1$s&quot; could not be found.';
 
 $txt['search_api_missing'] = 'The search API could not be found. Please contact the admin to check they have uploaded the correct files.';
+// argument(s): TODO
 $txt['search_api_not_compatible'] = 'The selected search API the forum is using is out of date - falling back to standard search. Please check file %1$s.';
 
 // Handling hook calls
+// argument(s): TODO
 $txt['hook_fail_loading_file'] = 'Hook call: The file at path: %s could not be loaded.';
+// argument(s): TODO
 $txt['hook_fail_call_to'] = 'Hook call: function "%1$s" in file %2$s could not be called.';
 
+// argument(s): TODO
 $txt['file_not_created'] = 'The file at "%1$s" could not be created. Please make sure the parent directory has the appropriate permissions.';
+// argument(s): TODO
 $txt['file_minimize_fail'] = 'The file "%1$s" could not be located on the current or the default theme and, therefore, it was not included in the minified file.';
+// argument(s): TODO
 $txt['unlink_minimized_fail'] = 'The following files could not be deleted. Please check the file permissions of the files themselves and the parent directory.<br>%1$s';
 
 // SubActions failed attempt.
+// argument(s): TODO
 $txt['sub_action_fail'] = 'The callable %s could not be called.';
 
 // Restore topic/posts
 $txt['cannot_restore_first_post'] = 'You cannot restore the first post in a topic.';
 $txt['parent_topic_missing'] = 'The parent topic of the post you are trying to restore has been deleted.';
 $txt['restored_disabled'] = 'The restoration of topics has been disabled.';
+// argument(s): TODO
 $txt['restore_not_found'] = 'The following messages could not be restored; the original topic may have been removed:<ul style="margin-top: 0px;">%1$s</ul>You will need to move these manually.';
 
 $txt['error_invalid_dir'] = 'The directory you entered is invalid.';

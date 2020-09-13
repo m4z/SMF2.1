@@ -144,6 +144,7 @@ $txt['group_perms_name_profile_signature_any'] = 'Edit anyone\'s signature';
 $txt['group_perms_name_profile_signature_own'] = 'Edit own signature';
 $txt['group_perms_name_profile_website_any'] = 'Edit anyone\'s website field';
 $txt['group_perms_name_profile_website_own'] = 'Edit own website';
+// argument(s): TODO
 $txt['group_perms_name_bbc'] = 'Use the [%1$s] BBCode';
 $txt['group_perms_name_likes_like'] = 'Like any content';
 $txt['group_perms_name_mention'] = 'Mention others via @name';

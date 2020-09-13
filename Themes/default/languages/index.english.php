@@ -57,6 +57,7 @@ $txt['upload_all'] = 'Upload all';
 $txt['processing'] = 'Processing...';
 
 $txt['modify'] = 'Modify';
+// argument(s): TODO
 $txt['forum_index'] = '%1$s - Index';
 $txt['members'] = 'Members';
 $txt['board_name'] = 'Board name';
@@ -125,14 +126,19 @@ $txt['at'] = 'at';
 $txt['by'] = 'by';
 $txt['logout'] = 'Logout';
 $txt['started_by'] = 'Started by';
+// argument(s): TODO
 $txt['topic_started_by'] = 'Started by <strong>%1$s</strong> in <em>%2$s</em>';
 $txt['replies'] = 'Replies';
 $txt['last_post'] = 'Last post';
 $txt['first_post'] = 'First post';
 $txt['last_poster'] = 'Last post by';
+// argument(s): TODO
 $txt['last_post_message'] = '<strong>Last post: </strong>%3$s <span class="postby">%2$s by %1$s</span>';
+// argument(s): TODO
 $txt['last_post_topic'] = '%1$s<br>by %2$s';
+// argument(s): TODO
 $txt['post_by_member'] = '<strong>%1$s</strong> by <strong>%2$s</strong><br>';
+// argument(s): TODO
 $txt['boardindex_total_posts'] = '%1$s Posts in %2$s Topics by %3$s Members';
 $txt['show'] = 'Show';
 $txt['hide'] = 'Hide';
@@ -155,11 +161,13 @@ $txt['notify_replies'] = 'Notify of replies';
 $txt['move_topic'] = 'Move Topic';
 $txt['move_to'] = 'Move to';
 $txt['pages'] = 'Pages';
+// argument(s): a number
 $txt['users_active'] = 'Users active in past %1$d minutes';
 $txt['personal_messages'] = 'Personal Messages';
 $txt['reply_quote'] = 'Reply with quote';
 $txt['reply'] = 'Reply';
 $txt['reply_noun'] = 'Reply';
+// argument(s): TODO
 $txt['reply_number'] = 'Reply #%1$s';
 $txt['approve'] = 'Approve';
 $txt['unapprove'] = 'Unapprove';
@@ -168,13 +176,17 @@ $txt['issue_warning'] = 'Issue Warning';
 $txt['awaiting_approval'] = 'Awaiting approval';
 $txt['attach_awaiting_approve'] = 'Attachments awaiting approval';
 $txt['post_awaiting_approval'] = 'This message is awaiting approval by a moderator.';
+// argument(s): TODO
 $txt['there_are_unapproved_topics'] = 'There are %1$s topics and %2$s posts awaiting approval in this board. Click <a href="%3$s">here</a> to view them all.';
 $txt['send_message'] = 'Send message';
 
 $txt['msg_alert_no_messages'] = 'you don\'t have any messages';
+// argument(s): TODO
 $txt['msg_alert_one_message'] = 'you have <a href="%1$s">1 message</a>';
+// argument(s): TODO
 $txt['msg_alert_many_message'] = 'you have <a href="%1$s">%2$d messages</a>';
 $txt['msg_alert_one_new'] = '1 is new';
+// argument(s): TODO
 $txt['msg_alert_many_new'] = '%1$d are new';
 $txt['new_alert'] = 'New alert';
 $txt['remove_message'] = 'Remove this post';
@@ -208,9 +220,12 @@ $txt['topic_started'] = 'Topic started by';
 $txt['title'] = 'Title';
 $txt['post_by'] = 'Post by';
 $txt['memberlist_searchable'] = 'Searchable list of all registered members.';
+// argument(s): TODO
 $txt['welcome_newest_member'] = 'Please welcome %1$s, our newest member.';
 $txt['admin_center'] = 'Administration Center';
+// argument(s): TODO
 $txt['last_edit_by'] = '<span class="lastedit">Last Edit</span>: %1$s by %2$s';
+// argument(s): TODO
 $txt['last_edit_reason'] = '<span id="reason" class="lastedit">Reason</span>: %1$s';
 $txt['notify_deactivate'] = 'Would you like to deactivate notification on this topic?';
 $txt['modified_time'] = 'Last edited';
@@ -225,6 +240,7 @@ $txt['date_registered'] = 'Date registered';
 
 $txt['recent_view'] = 'View the most recent posts on the forum.';
 $txt['recent_updated'] = 'is the most recently updated topic';
+// argument(s): TODO
 $txt['is_recent_updated'] = '%1$s is the most recently updated topic';
 
 $txt['male'] = 'Male';
@@ -242,9 +258,6 @@ $txt['welcome_guest_activate'] = '<br>Did you miss your <a href="' . $scripturl 
 $txt['hello_member'] = 'Hey,';
 // Use numeric entities in the below string.
 $txt['hello_guest'] = 'Welcome,';
-$txt['welmsg_hey'] = 'Hey,';
-$txt['welmsg_welcome'] = 'Welcome,';
-$txt['welmsg_please'] = 'Please';
 $txt['select_destination'] = 'Please select a destination';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
@@ -277,7 +290,9 @@ $txt['new'] = 'New';
 $txt['view_all_members'] = 'View all Members';
 $txt['view'] = 'View';
 
+// argument(s): TODO
 $txt['viewing_members'] = 'Viewing Members %1$s to %2$s';
+// argument(s): TODO
 $txt['of_total_members'] = 'of %1$s total members';
 
 $txt['forgot_your_password'] = 'Forgot your password?';
@@ -306,7 +321,9 @@ $txt['no_matches'] = 'Sorry, no matches were found';
 
 $txt['notification'] = 'Notification';
 
+// argument(s): TODO
 $txt['your_ban'] = 'Sorry %1$s, you are banned from using this forum!';
+// argument(s): TODO
 $txt['your_ban_expires'] = 'This ban is set to expire %1$s.';
 $txt['your_ban_expires_never'] = 'This ban is not set to expire.';
 $txt['ban_continue_browse'] = 'You may continue to browse the forum as a guest.';
@@ -353,9 +370,11 @@ $txt['search_for'] = 'Search for';
 $txt['search_match'] = 'Match';
 
 $txt['forum_in_maintenance'] = 'Your forum is in Maintenance Mode. Only administrators can currently log in.';
+// argument(s): TODO
 $txt['maintenance_page'] = 'You can turn off Maintenance Mode from the <a href="%1$s">Server Settings</a> area.';
 
 $txt['read_one_time'] = 'Read 1 time';
+// argument(s): TODO
 $txt['read_many_times'] = 'Read %1$d times';
 
 $txt['forum_stats'] = 'Forum Stats';
@@ -372,6 +391,7 @@ $txt['print_page_images'] = 'Text with Images';
 $txt['valid_email'] = 'This must be a valid email address.';
 
 $txt['geek'] = 'I am a geek!!';
+// argument(s): TODO
 $txt['info_center_title'] = '%1$s - Info Center';
 
 $txt['watch'] = 'Watch';
@@ -386,6 +406,7 @@ $txt['file'] = 'File';
 $txt['line'] = 'Line';
 // Use numeric entities in the below string.
 $txt['tried_to_repair'] = 'SMF has detected and automatically tried to repair an error in your database. If you continue to have problems, or continue to receive these emails, please contact your host.';
+// argument(s): TODO
 $txt['database_error_versions'] = '<strong>Note:</strong> It appears that your database <em>may</em> require an upgrade. Your forum\'s files are currently at version %1$s, while your database is at version %2$s. The above error might possibly go away if you execute the latest version of upgrade.php.';
 $txt['template_parse_error'] = 'Template Parse Error!';
 $txt['template_parse_error_message'] = 'It seems something has gone sour on the forum with the template system. This problem should only be temporary, so please come back later and try again. If you continue to see this message, please contact the administrator.<br><br>You can also try <a href="javascript:location.reload();">refreshing this page</a>.';
@@ -470,20 +491,24 @@ $txt['search_advanced'] = 'Advanced search';
 
 $txt['security_risk'] = 'MAJOR SECURITY RISK:';
 $txt['not_removed'] = 'You have not removed ';
+// argument(s): TODO
 $txt['not_removed_extra'] = '%1$s is a backup of %2$s that was not generated by SMF. It can be accessed directly and used to gain unauthorized access to your forum. You should delete it immediately.';
 $txt['generic_warning'] = 'Warning';
 $txt['agreement_missing'] = 'You are requiring new users to accept a registration agreement, however, the file (agreement.txt) does not exist.';
 
 $txt['cache_writable'] = 'The cache directory is not writable - this will adversely affect the performance of your forum.';
 
+// argument(s): TODO
 $txt['page_created_full'] = 'Page created in %1$.3f seconds with %2$d queries.';
 
 $txt['report_to_mod_func'] = 'Use this function to inform the moderators and administrators of an abusive or problematic message.';
 $txt['report_profile_func'] = 'Use this function to inform the administrators of abusive profile content, such as spam or inappropriate images.';
 
 $txt['online'] = 'Online';
+// argument(s): TODO
 $txt['member_is_online'] = '%1$s is online';
 $txt['offline'] = 'Offline';
+// argument(s): TODO
 $txt['member_is_offline'] = '%1$s is offline';
 $txt['pm_online'] = 'Personal Message (Online)';
 $txt['pm_offline'] = 'Personal Message (Offline)';
@@ -517,6 +542,7 @@ $txt['calendar_link'] = 'Link to Calendar';
 $txt['calendar_upcoming'] = 'Upcoming Calendar';
 $txt['calendar_today'] = 'Today\'s Calendar';
 $txt['calendar_week'] = 'Week';
+// argument(s): TODO
 $txt['calendar_week_title'] = 'Week %1$d of %2$d';
 // %1$s is the month, %2$s is the day, %3$s is the year. Change to suit your language.
 $txt['calendar_week_beginning'] = 'Week beginning %1$s %2$s, %3$s';
@@ -525,6 +551,7 @@ $txt['calendar_how_edit'] = 'how do you edit these events?';
 $txt['calendar_link_event'] = 'Link Event To Post';
 $txt['calendar_confirm_delete'] = 'Are you sure you want to delete this event?';
 $txt['calendar_linked_events'] = 'Linked Events';
+// argument(s): TODO
 $txt['calendar_click_all'] = 'click to see all %1$s';
 $txt['calendar_allday'] = 'All day';
 $txt['calendar_timezone'] = 'Time zone';
@@ -545,7 +572,9 @@ $txt['redirect_topic_expires'] = 'Automatically remove the redirection topic';
 $txt['mergetopic_redirect'] = 'Redirect to the merged topic';
 $txt['merge_topic_unapproved_js'] = 'Warning! This topic has not yet been approved.\\n\\nIt is not recommended that you create a redirection topic unless you intend to approve the post immediately following the merge.';
 
+// argument(s): TODO
 $txt['theme_template_error'] = 'Unable to load the \'%1$s\' template.';
+// argument(s): TODO
 $txt['theme_language_error'] = 'Unable to load the \'%1$s\' language file.';
 
 $txt['sub_boards'] = 'Sub-Boards';
@@ -555,6 +584,7 @@ $txt['smtp_no_connect'] = 'Could not connect to SMTP host';
 $txt['smtp_port_ssl'] = 'SMTP port setting incorrect; it should be 465 for SSL servers. Hostname may need ssl:// prefix.';
 $txt['smtp_bad_response'] = 'Could not get mail server response codes';
 $txt['smtp_error'] = 'Ran into problems sending mail. Error: ';
+// argument(s): TODO
 $txt['mail_send_unable'] = 'Unable to send mail to the email address \'%1$s\'';
 
 $txt['mlist_search'] = 'Search for Members';
@@ -566,10 +596,13 @@ $txt['mlist_search_group'] = 'Search by position';
 $txt['mlist_search_name'] = 'Search by name';
 $txt['mlist_search_website'] = 'Search by website';
 $txt['mlist_search_results'] = 'Search results for';
+// argument(s): TODO
 $txt['mlist_search_by'] = 'Search by %1$s';
 $txt['mlist_menu_view'] = 'View the memberlist';
 
+// argument(s): TODO
 $txt['attach_downloaded'] = 'downloaded %1$d times';
+// argument(s): TODO
 $txt['attach_viewed'] = 'viewed %1$d times';
 
 $txt['settings'] = 'Settings';
@@ -578,6 +611,7 @@ $txt['more'] = 'more';
 $txt['etc'] = 'etc.';
 
 $txt['hostname'] = 'Hostname';
+// argument(s): TODO
 $txt['you_are_post_banned'] = 'Sorry %1$s, you are banned from posting and sending personal messages on this forum.';
 $txt['ban_reason'] = 'Reason';
 $txt['select_item_check'] = 'Please select at least one item in the list';
@@ -585,6 +619,7 @@ $txt['select_item_check'] = 'Please select at least one item in the list';
 $txt['tables_optimized'] = 'Database tables optimized';
 
 $txt['add_poll'] = 'Add poll';
+// argument(s): TODO
 $txt['poll_options_limit'] = 'You may only select up to %1$s options.';
 $txt['poll_remove'] = 'Remove Poll';
 $txt['poll_remove_warn'] = 'Are you sure you want to remove this poll from the topic?';
@@ -611,8 +646,10 @@ $txt['spell_check'] = 'Spell Check';
 
 $txt['quick_reply'] = 'Quick Reply';
 $txt['quick_reply_warning'] = 'Warning! This topic is currently locked, only admins and moderators can reply.';
+// argument(s): TODO
 $txt['quick_reply_verification'] = 'After submitting your post you will be directed to the regular post page to verify your post %1$s.';
 $txt['quick_reply_verification_guests'] = '(required for all guests)';
+// argument(s): TODO
 $txt['quick_reply_verification_posts'] = '(required for all users with less than %1$d posts)';
 $txt['wait_for_approval'] = 'Note: this post will not display until it has been approved by a moderator.';
 
@@ -635,13 +672,18 @@ $txt['like_error'] = 'There was an error with your request.';
 $txt['like_disable'] = 'Likes feature is disabled.';
 $txt['not_valid_like_type'] = 'The liked type is not a valid type.';
 // Translators, if you need to make more strings to suit your language, e.g. $txt['likes_2'] = 'Two people like this', please do so.
+// argument(s): TODO
 $txt['likes_1'] = '<a href="%1$s">%2$s person</a> likes this.';
+// argument(s): TODO
 $txt['likes_n'] = '<a href="%1$s">%2$s people</a> like this.';
 $txt['you_likes_0'] = 'You like this.';
+// argument(s): TODO
 $txt['you_likes_1'] = 'You and <a href="%1$s">%2$s other person</a> like this.';
+// argument(s): TODO
 $txt['you_likes_n'] = 'You and <a href="%1$s">%2$s other people</a> like this.';
 
 $txt['report_to_mod'] = 'Report to moderator';
+// argument(s): TODO
 $txt['report_profile'] = 'Report profile of %1$s';
 
 $txt['unread_topics_visit'] = 'Recent Unread Topics';
@@ -692,6 +734,7 @@ $txt['merge_include_notifications'] = 'Include notifications?';
 $txt['merge_check'] = 'Merge?';
 $txt['merge_no_poll'] = 'No poll';
 $txt['merge_why'] = 'Please enter a brief description as to why these topics are being merged.';
+// argument(s): TODO
 $txt['merged_subject'] = '[MERGED] %1$s';
 $txt['mergetopic_default'] = 'This topic has been merged into ' . $txt['movetopic_auto_topic'] . '.';
 
@@ -734,6 +777,7 @@ $txt['quickmod_delete_selected'] = 'Remove selected';
 $txt['quickmod_split_selected'] = 'Split selected';
 
 $txt['show_personal_messages_heading'] = 'New messages';
+// argument(s): TODO
 $txt['show_personal_messages'] = 'You have <strong>%1$s</strong> unread personal messages in your inbox.<br><br><a href="%2$s">Go to your inbox</a>';
 
 $txt['help_popup'] = 'A little lost? Let me explain:';
@@ -743,6 +787,7 @@ $txt['previous_next_forward'] = 'Next topic';
 
 $txt['mark_unread'] = 'Mark unread';
 
+// argument(s): TODO
 $txt['ssi_not_direct'] = 'Please do not access SSI.php by URL directly; you may want to use the path (%1$s) or add ?ssi_function=something.';
 $txt['ssi_session_broken'] = 'SSI.php was unable to load a session! This may cause problems with logout and other functions - please make sure SSI.php is included before *anything* else in all your scripts!';
 
@@ -752,6 +797,7 @@ $txt['preview_fetch'] = 'Fetching preview...';
 $txt['preview_new'] = 'New message';
 $txt['pm_error_while_submitting'] = 'The following error or errors occurred while sending this personal message:';
 $txt['error_while_submitting'] = 'The message has the following error or errors that must be corrected before continuing:';
+// argument(s): TODO
 $txt['error_old_topic'] = 'Warning: this topic has not been posted in for at least %1$d days.<br>Unless you\'re sure you want to reply, please consider starting a new topic.';
 
 $txt['split_selected_posts'] = 'Selected posts';
@@ -768,6 +814,7 @@ $txt['pm_short'] = 'My Messages';
 $txt['pm_menu_read'] = 'Read your messages';
 $txt['pm_menu_send'] = 'Send a message';
 
+// argument(s): TODO
 $txt['unapproved_posts'] = 'Unapproved Posts (Topics: %1$d, Posts: %2$d)';
 
 $txt['ajax_in_progress'] = 'Loading...';
@@ -775,6 +822,7 @@ $txt['ajax_in_progress'] = 'Loading...';
 $txt['mod_reports_waiting'] = 'Reported Posts';
 
 $txt['view_unread_category'] = 'Unread Posts';
+// argument(s): TODO
 $txt['new_posts_in_category'] = 'Click to see the new posts in %1$s';
 $txt['verification'] = 'Verification';
 $txt['visual_verification_hidden'] = 'Please leave this box empty';
@@ -837,12 +885,19 @@ $txt['debug_kb'] = 'KB.';
 $txt['debug_show'] = 'show';
 $txt['debug_cache_hits'] = 'Cache hits: ';
 $txt['debug_cache_misses'] = 'Cache misses: ';
+// argument(s): TODO
 $txt['debug_cache_seconds_bytes'] = '%1$ss - %2$s bytes';
+// argument(s): TODO
 $txt['debug_cache_seconds_bytes_total'] = '%1$ss for %2$s bytes';
+// argument(s): TODO
 $txt['debug_queries_used'] = 'Queries used: %1$d.';
+// argument(s): TODO
 $txt['debug_queries_used_and_warnings'] = 'Queries used: %1$d, %2$d warnings.';
+// argument(s): TODO
 $txt['debug_query_in_line'] = 'in <em>%1$s</em> line <em>%2$s</em>, ';
+// argument(s): TODO
 $txt['debug_query_which_took'] = 'which took %1$s seconds.';
+// argument(s): TODO
 $txt['debug_query_which_took_at'] = 'which took %1$s seconds at %2$s into request.';
 $txt['debug_show_queries'] = '[Show Queries]';
 $txt['debug_hide_queries'] = '[Hide Queries]';
@@ -881,15 +936,21 @@ $txt['notify_board_2_desc'] = 'You will receive alerts for this board.';
 $txt['notify_board_3_desc'] = 'You will receive both alerts and e-mails for this board.';
 
 $txt['notify_board_prompt'] = 'Do you want a notification email when someone posts a new topic in this board?';
+// argument(s): TODO
 $txt['notify_board_subscribed'] = '%1$s has been subscribed to new topic notifications for this board.';
+// argument(s): TODO
 $txt['notify_board_unsubscribed'] = '%1$s has been unsubscribed from new topic notifications for this board.';
 
 $txt['notify_topic_prompt'] = 'Do you want a notification email if someone replies to this topic?';
+// argument(s): TODO
 $txt['notify_topic_subscribed'] = '%1$s has been subscribed to new reply notifications for this topic.';
+// argument(s): TODO
 $txt['notify_topic_unsubscribed'] = '%1$s has been unsubscribed from new reply notifications for this topic.';
 
 $txt['notify_announcements_prompt'] = 'Do you want to receive forum newsletters, announcements and important notifications by email?';
+// argument(s): TODO
 $txt['notify_announcements_subscribed'] = '%1$s has been subscribed to forum newsletters, announcements and important notifications.';
+// argument(s): TODO
 $txt['notify_announcements_unsubscribed'] = '%1$s has been unsubscribed from forum newsletters, announcements and important notifications.';
 
 // Mobile Actions

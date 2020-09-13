@@ -97,17 +97,23 @@ $txt['execute_code'] = 'Execute Code';
 $txt['execute_database_changes'] = 'Adapt Database';
 $txt['execute_hook_add'] = 'Add Hook';
 $txt['execute_hook_remove'] = 'Remove Hook';
+// argument(s): TODO
 $txt['execute_hook_action'] = 'Adapting hook %1$s';
+// argument(s): TODO
 $txt['execute_hook_action_inverse'] = 'Removing hook %1$s';
 $txt['package_requires'] = 'Requires Modification';
 $txt['package_check_for'] = 'Check for installation:';
 $txt['execute_credits_add'] = 'Add Credits';
 $txt['execute_credits_remove'] = 'Remove Credits';
+// argument(s): TODO
 $txt['execute_credits_action'] = 'Credits: %1$s';
 
 $txt['package_install_actions'] = 'Installations actions for';
+// argument(s): TODO
 $txt['package_will_fail_title'] = 'Error in package %1$s';
+// argument(s): TODO
 $txt['package_will_fail_warning'] = 'At least one error was encountered during a test %1$s of this package.<br>It is <strong>strongly</strong> recommended that you do not continue with %1$s unless you know what you are doing, and have made a backup very recently.<br><br>This error may be caused by a conflict between the package you\'re trying to install and another package you have already installed, an error in the package, a package which requires another package that you have not installed yet, or a package designed for another version of SMF.';
+// argument(s): TODO
 $txt['package_will_fail_unknown_action'] = 'The package is trying to perform an unknown action: %1$s';
 // Don't use entities in the below string.
 $txt['package_will_fail_popup'] = 'Are you sure you wish to continue installing this modification, even though it will not install successfully?';
@@ -144,6 +150,7 @@ $txt['package_install_options_make_backups'] = 'Create Backup versions of replac
 $txt['package_install_options_make_full_backups'] = 'Create a backup of key SMF files whenever a package is installed or uninstalled.';
 
 $txt['package_ftp_necessary'] = 'FTP Information Required';
+// argument(s): TODO
 $txt['package_ftp_why'] = 'Some of the files the package manager needs to modify are not writable. This needs to be changed by logging into FTP and using it to chmod or create the files and directories. Your FTP information may be temporarily cached for proper operation of the package manager. Note you can also do this manually using an FTP client - to view a list of the affected files please click <a href="#" onclick="%1$s">here</a>.';
 $txt['package_ftp_why_file_list'] = 'The following files need to made writable to continue installation:';
 $txt['package_ftp_why_download'] = 'In order to download packages, the Packages directory, and any files in it, must be writable. Currently the system does not have the needed permissions to write to this directory. The package manager can use your FTP information to attempt to fix this problem.';
@@ -173,6 +180,7 @@ $txt['package_modification_missing'] = 'The file could not be found.';
 $txt['package_no_zlib'] = 'zlib';
 $txt['package_no_phar'] = 'phar';
 $txt['package_no_package_manager'] = 'the package manager';
+// argument(s): TODO
 $txt['package_no_lib'] = 'Sorry, your PHP configuration doesn\'t have support for <strong>"%1$s</strong>. Without this, %2$s cannot function. Please contact your host about this for more information.';
 
 $txt['package_cleanperms_title'] = 'Cleanup Permissions';
@@ -190,9 +198,13 @@ $txt['package_download_filename_info'] = 'Optional value. Should be used when th
 $txt['package_db_uninstall'] = 'Remove all data associated with this modification.';
 $txt['package_db_uninstall_details'] = 'Details';
 $txt['package_db_uninstall_actions'] = 'Checking this option will result in the following actions';
+// argument(s): TODO
 $txt['package_db_code'] = 'Execute code file &quot;%1$s&quot;';
+// argument(s): TODO
 $txt['package_db_remove_table'] = 'Drop table &quot;%1$s&quot;';
+// argument(s): TODO
 $txt['package_db_remove_column'] = 'Remove column &quot;%2$s&quot; from &quot;%1$s&quot;';
+// argument(s): TODO
 $txt['package_db_remove_index'] = 'Remove index &quot;%2$s&quot; from &quot;%1$s&quot;';
 
 $txt['package_advanced_button'] = 'Emulation Support';
@@ -240,10 +252,13 @@ $txt['package_file_perms_ftp_retain'] = 'Note, SMF will only retain the password
 $txt['package_file_perms_go'] = 'Make Changes';
 
 $txt['package_file_perms_applying'] = 'Applying Changes';
+// argument(s): TODO
 $txt['package_file_perms_items_done'] = '%1$d of %2$d items completed';
 $txt['package_file_perms_skipping_ftp'] = '<strong>Warning:</strong> Failed to connect to FTP server, attempting to change permissions without. This is <em>likely</em> to fail - please check the results upon completion and try again with correct FTP details if necessary.';
 
+// argument(s): TODO
 $txt['package_file_perms_dirs_done'] = '%1$d of %2$d directories completed';
+// argument(s): TODO
 $txt['package_file_perms_files_done'] = '%1$d of %2$d files done in current directory';
 
 $txt['chmod_value_invalid'] = 'You have tried to enter an invalid chmod value. Chmod must be between 0444 and 0777';
@@ -255,11 +270,14 @@ $txt['package_restore_permissions_filename'] = 'Filename';
 $txt['package_restore_permissions_orig_status'] = 'Original Status';
 $txt['package_restore_permissions_cur_status'] = 'Current Status';
 $txt['package_restore_permissions_result'] = 'Result';
+// argument(s): TODO
 $txt['package_restore_permissions_pre_change'] = '%1$s (%3$s)';
+// argument(s): TODO
 $txt['package_restore_permissions_post_change'] = '%2$s (%3$s - was %2$s)';
 $txt['package_restore_permissions_action_skipped'] = '<em>Skipped</em>';
 $txt['package_restore_permissions_action_success'] = '<span class="success">Success</span>';
 $txt['package_restore_permissions_action_failure'] = '<span class="error">Failed</span>';
+// argument(s): TODO
 $txt['package_restore_permissions_action_done'] = 'SMF has attempted to restore the selected files back to their original permissions, the results can be seen below. If a change failed, or for a more detailed view of file permissions, please see the <a href="%1$s">File Permissions</a> section.';
 
 $txt['package_file_perms_warning'] = 'Please Note';
@@ -270,6 +288,7 @@ $txt['package_file_perms_warning_desc'] = '
 	<li>This functionality is mainly applicable on non-Windows based servers - it will not work as expected on Windows in regards to permission flags.</li>
 	<li>Before proceeding make sure you have an FTP client installed in case you do make an error and need to FTP into the server to remedy it.</li>';
 
+// argument(s): TODO
 $txt['package_confirm_view_package_content'] = 'Are you sure you want to view the package contents from this location:<br><br>%1$s';
 $txt['package_confirm_proceed'] = 'Proceed';
 $txt['package_confirm_go_back'] = 'Go back';
