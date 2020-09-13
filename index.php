@@ -26,7 +26,7 @@ define('SMF_VERSION', '2.1 RC2');
 define('SMF_FULL_VERSION', 'SMF ' . SMF_VERSION);
 define('SMF_SOFTWARE_YEAR', '2020');
 
-define('JQUERY_VERSION', '3.4.1');
+define('JQUERY_VERSION', '3.5.1');
 define('POSTGRE_TITLE', 'PostgreSQL');
 define('MYSQL_TITLE', 'MySQL');
 define('SMF_USER_AGENT', 'Mozilla/5.0 (' . php_uname('s') . ' ' . php_uname('m') . ') AppleWebKit/605.1.15 (KHTML, like Gecko)  SMF/' . strtr(SMF_VERSION, ' ', '.'));
@@ -231,7 +231,7 @@ function smf_main()
 		'loadeditorlocale' => true,
 		'modifycat' => true,
 		'pm' => array('sa' => array('popup')),
-		'profile' => array('area' => array('popup', 'alerts_popup')),
+		'profile' => array('area' => array('popup', 'alerts_popup', 'download', 'dlattach')),
 		'requestmembers' => true,
 		'smstats' => true,
 		'suggest' => true,
@@ -243,23 +243,7 @@ function smf_main()
 	);
 	call_integration_hook('integrate_pre_log_stats', array(&$no_stat_actions));
 
-	$should_log = true;
-	if (isset($_REQUEST['action']) && isset($no_stat_actions[$_REQUEST['action']]))
-	{
-		if (is_array($no_stat_actions[$_REQUEST['action']]))
-		{
-			foreach ($no_stat_actions[$_REQUEST['action']] as $subtype => $subnames)
-			{
-				if (isset($_REQUEST[$subtype]) && in_array($_REQUEST[$subtype], $subnames))
-				{
-					$should_log = false;
-					break;
-				}
-			}
-		}
-		else
-			$should_log = empty($no_stat_actions[$_REQUEST['action']]);
-	}
+	$should_log = !is_filtered_request($no_stat_actions, 'action');
 	if ($should_log)
 	{
 		// Log this user as online.
@@ -334,6 +318,8 @@ function smf_main()
 
 	// Here's the monstrous $_REQUEST['action'] array - $_REQUEST['action'] => array($file, $function).
 	$actionArray = array(
+		'agreement' => array('Agreement.php', 'Agreement'),
+		'acceptagreement' => array('Agreement.php', 'AcceptAgreement'),
 		'activate' => array('Register.php', 'Activate'),
 		'admin' => array('Admin.php', 'AdminMain'),
 		'announce' => array('Post.php', 'AnnounceTopic'),
